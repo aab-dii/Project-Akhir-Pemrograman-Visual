@@ -2,6 +2,7 @@
 
 Public Class produk
     Dim idProduk As Integer ' Ubah tipe data idProduk menjadi Integer
+    Dim jenisProduk As String = ""
 
     Private Sub produk_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         koneksi()
@@ -15,9 +16,18 @@ Public Class produk
 
     Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
         ' Lakukan pengecekan jika nama produk dan harga produk telah diisi
-        If txtNama.Text <> "" AndAlso txtHarga.Text <> "" Then
+        If txtNama.Text = "" OrElse txtHarga.Text = "" OrElse txtMerek.Text = "" OrElse cbKualitas.Text = "" OrElse txtMadeIn.Text = "" OrElse txtStok.Text = "" Then
+            MsgBox("Data belum lengkap")
+        ElseIf Not (sepatu.Checked Or baju.Checked) Then
+            MsgBox("Data Belum Lengkap")
+        Else
+            If sepatu.Checked Then
+                jenisProduk = sepatu.Text
+            Else
+                jenisProduk = baju.Text
+            End If
             ' Lakukan penyimpanan produk ke database
-            CMD = New MySqlCommand("INSERT INTO tbproduk (idProduk, nama, jenis, harga) VALUES ('" & idProduk & "', '" & txtNama.Text & "', '" & txtJenis.Text & "', '" & txtHarga.Text & "')", CONN)
+            CMD = New MySqlCommand("INSERT INTO tbproduk (idProduk, nama, jenis, harga,merek,madeIn,kualitas,stok) VALUES ('" & idProduk & "', '" & txtNama.Text & "', '" & jenisProduk & "', '" & txtHarga.Text & "', '" & txtMerek.Text & "', '" & txtMadeIn.Text & "', '" & cbKualitas.Text & "', '" & txtStok.Text & "')", CONN)
             CMD.ExecuteNonQuery()
             MsgBox("Simpan Data Berhasil!")
 
@@ -26,13 +36,14 @@ Public Class produk
 
             ' Kosongkan textbox setelah penyimpanan
             txtNama.Clear()
-            txtJenis.Clear()
+            txtHarga.Clear()
+            txtHarga.Clear()
+            txtHarga.Clear()
+            txtHarga.Clear()
             txtHarga.Clear()
 
             ' Refresh tampilan DataGridView setelah penyimpanan
-            TampilData()
-        Else
-            MsgBox("Mohon isi nama produk dan harga produk terlebih dahulu!")
+            tampilData()
         End If
     End Sub
     Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellClick
@@ -43,7 +54,12 @@ Public Class produk
 
             produk2.txtId.Text = selectedCustomer.Cells(0).Value.ToString()
             produk2.txtNama.Text = selectedCustomer.Cells(1).Value.ToString()
-            produk2.txtJenis.Text = selectedCustomer.Cells(2).Value.ToString()
+            Dim jenisProduk As String = selectedCustomer.Cells(2).Value.ToString()
+            If jenisProduk = "sepatu" Then
+                produk2.sepatu.Checked = True
+            ElseIf jenisProduk = "baju" Then
+                produk2.baju.Checked = True
+            End If
             produk2.txtHarga.Text = selectedCustomer.Cells(3).Value.ToString()
             produk2.Show()
         End If

@@ -9,7 +9,7 @@ Public Class produk2
         Me.Close()
     End Sub
     Private Sub btnUbah_Click(sender As Object, e As EventArgs) Handles btnUbah.Click
-        If txtNama.Text = "" Or txtJenis.Text = "" Or txtHarga.Text = "" Then
+        If txtNama.Text = "" Or txtHarga.Text = "" Then
             MsgBox("Data belum lengkap!")
         Else
             CMD = New MySqlCommand("Select * from tbproduk where idProduk ='" & txtId.Text & "'", CONN)
@@ -18,7 +18,7 @@ Public Class produk2
 
             If RD.HasRows Then
                 RD.Close()
-                CMD = New MySqlCommand("update tbproduk set nama = '" & txtNama.Text & "', jenis = '" & txtJenis.Text & "', harga = '" & txtHarga.Text & "'where idProduk = '" & txtId.Text & "'", CONN)
+                CMD = New MySqlCommand("update tbproduk set nama = '" & txtNama.Text & "', harga = '" & txtHarga.Text & "'where idProduk = '" & txtId.Text & "'", CONN)
                 CMD.ExecuteNonQuery()
                 MsgBox("Data berhasil diubah")
                 produk.tampilData()
@@ -26,5 +26,9 @@ Public Class produk2
                 produk.Show()
             End If
         End If
+    End Sub
+
+    Private Sub produk2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
