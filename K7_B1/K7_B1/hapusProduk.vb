@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 Public Class produk2
-
+    Dim jenisProduk As String = ""
     Private Sub btnHapus_Click(sender As Object, e As EventArgs) Handles btnHapus.Click
         CMD = New MySqlCommand("delete from tbproduk where idProduk = '" & txtId.Text & "'", CONN)
         CMD.ExecuteNonQuery()
@@ -18,7 +18,12 @@ Public Class produk2
 
             If RD.HasRows Then
                 RD.Close()
-                CMD = New MySqlCommand("update tbproduk set nama = '" & txtNama.Text & "', harga = '" & txtHarga.Text & "'where idProduk = '" & txtId.Text & "'", CONN)
+                If sepatu.Checked Then
+                    jenisProduk = sepatu.Text
+                Else
+                    jenisProduk = baju.Text
+                End If
+                CMD = New MySqlCommand("update tbproduk set nama = '" & txtNama.Text & "', jenis = '" & jenisProduk & "', harga = '" & txtHarga.Text & "', merek = '" & txtMerek.Text & "', madeIn = '" & txtMadeIn.Text & "' , kualitas = '" & cbKualitas.Text & "' , stok = '" & txtStok.Text & "'where idProduk = '" & txtId.Text & "'", CONN)
                 CMD.ExecuteNonQuery()
                 MsgBox("Data berhasil diubah")
                 produk.tampilData()

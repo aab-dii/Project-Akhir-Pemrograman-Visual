@@ -61,6 +61,10 @@ Public Class produk
                 produk2.baju.Checked = True
             End If
             produk2.txtHarga.Text = selectedCustomer.Cells(3).Value.ToString()
+            produk2.txtMerek.Text = selectedCustomer.Cells(4).Value.ToString()
+            produk2.txtMadeIn.Text = selectedCustomer.Cells(5).Value.ToString()
+            produk2.cbKualitas.Text = selectedCustomer.Cells(6).Value.ToString()
+            produk2.txtStok.Text = selectedCustomer.Cells(7).Value.ToString()
             produk2.Show()
         End If
     End Sub
@@ -90,6 +94,10 @@ Public Class produk
             row.Cells(1).Value = RD("Nama")
             row.Cells(2).Value = RD("Jenis")
             row.Cells(3).Value = RD("Harga")
+            row.Cells(4).Value = RD("Merek")
+            row.Cells(5).Value = RD("MadeIn")
+            row.Cells(6).Value = RD("Kualitas")
+            row.Cells(7).Value = RD("Stok")
             DataGridView1.Rows.Add(row)
         End While
         RD.Close()

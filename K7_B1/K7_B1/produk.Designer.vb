@@ -31,10 +31,6 @@ Partial Class produk
         Me.btnHapus = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.id = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.nama = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.jenis = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.harga = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.txtMadeIn = New System.Windows.Forms.TextBox()
         Me.txtMerek = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -46,6 +42,14 @@ Partial Class produk
         Me.baju = New System.Windows.Forms.RadioButton()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.cbKualitas = New System.Windows.Forms.ComboBox()
+        Me.id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nama = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.jenis = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.harga = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.merek = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.madeIn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.kualitas = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.stok = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -124,7 +128,7 @@ Partial Class produk
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.id, Me.nama, Me.jenis, Me.harga})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.id, Me.nama, Me.jenis, Me.harga, Me.merek, Me.madeIn, Me.kualitas, Me.stok})
         Me.DataGridView1.Location = New System.Drawing.Point(497, 82)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersVisible = False
@@ -132,30 +136,6 @@ Partial Class produk
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(464, 240)
         Me.DataGridView1.TabIndex = 9
-        '
-        'id
-        '
-        Me.id.HeaderText = "ID"
-        Me.id.Name = "id"
-        Me.id.Width = 46
-        '
-        'nama
-        '
-        Me.nama.HeaderText = "Nama"
-        Me.nama.Name = "nama"
-        Me.nama.Width = 70
-        '
-        'jenis
-        '
-        Me.jenis.HeaderText = "Jenis"
-        Me.jenis.Name = "jenis"
-        Me.jenis.Width = 66
-        '
-        'harga
-        '
-        Me.harga.HeaderText = "Harga"
-        Me.harga.Name = "harga"
-        Me.harga.Width = 72
         '
         'txtMadeIn
         '
@@ -255,6 +235,54 @@ Partial Class produk
         Me.cbKualitas.Size = New System.Drawing.Size(197, 24)
         Me.cbKualitas.TabIndex = 21
         '
+        'id
+        '
+        Me.id.HeaderText = "ID"
+        Me.id.Name = "id"
+        Me.id.Width = 46
+        '
+        'nama
+        '
+        Me.nama.HeaderText = "Nama"
+        Me.nama.Name = "nama"
+        Me.nama.Width = 70
+        '
+        'jenis
+        '
+        Me.jenis.HeaderText = "Jenis"
+        Me.jenis.Name = "jenis"
+        Me.jenis.Width = 66
+        '
+        'harga
+        '
+        Me.harga.HeaderText = "Harga"
+        Me.harga.Name = "harga"
+        Me.harga.Width = 72
+        '
+        'merek
+        '
+        Me.merek.HeaderText = "Merek"
+        Me.merek.Name = "merek"
+        Me.merek.Width = 72
+        '
+        'madeIn
+        '
+        Me.madeIn.HeaderText = "Made In"
+        Me.madeIn.Name = "madeIn"
+        Me.madeIn.Width = 83
+        '
+        'kualitas
+        '
+        Me.kualitas.HeaderText = "Kualitas"
+        Me.kualitas.Name = "kualitas"
+        Me.kualitas.Width = 83
+        '
+        'stok
+        '
+        Me.stok.HeaderText = "Stok"
+        Me.stok.Name = "stok"
+        Me.stok.Width = 61
+        '
         'produk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -296,10 +324,6 @@ Partial Class produk
     Friend WithEvents btnHapus As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents id As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents nama As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents jenis As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents harga As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents txtMadeIn As System.Windows.Forms.TextBox
     Friend WithEvents txtMerek As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
@@ -311,4 +335,12 @@ Partial Class produk
     Friend WithEvents baju As System.Windows.Forms.RadioButton
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents cbKualitas As System.Windows.Forms.ComboBox
+    Friend WithEvents id As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents nama As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents jenis As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents harga As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents merek As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents madeIn As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents kualitas As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents stok As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class
