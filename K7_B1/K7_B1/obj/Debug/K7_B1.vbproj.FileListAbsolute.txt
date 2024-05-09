@@ -1,1 +1,14 @@
 C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\bin\Debug\K7_B1.exe.config
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\bin\Debug\K7_B1.exe
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\bin\Debug\K7_B1.pdb
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\bin\Debug\K7_B1.xml
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.Dashboard.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.exe
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.xml
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.produk.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\bin\Debug\mysql.data.dll
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.produk2.resources
