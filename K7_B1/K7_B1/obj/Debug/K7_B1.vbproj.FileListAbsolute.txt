@@ -12,3 +12,16 @@ C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7
 C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.produk.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\bin\Debug\mysql.data.dll
 C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.produk2.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe.config
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.pdb
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.xml
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbprojResolveAssemblyReference.cache
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Dashboard.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.produk2.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.produk.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.Cache
