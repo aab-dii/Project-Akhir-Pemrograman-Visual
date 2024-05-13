@@ -28,3 +28,7 @@ D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\
 C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.MenuUser.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.Admin.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.tambah.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIXXXXX\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe.config
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIXXXXX\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIXXXXX\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIXXXXX\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
