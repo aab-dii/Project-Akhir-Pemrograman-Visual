@@ -25,3 +25,6 @@ D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.produk.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.MenuUser.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.Admin.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Praktikum\PA\K7_B1\K7_B1\obj\Debug\K7_B1.tambah.resources

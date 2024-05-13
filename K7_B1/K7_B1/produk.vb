@@ -14,38 +14,6 @@ Public Class produk
         TampilData()
     End Sub
 
-    Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
-        ' Lakukan pengecekan jika nama produk dan harga produk telah diisi
-        If txtNama.Text = "" OrElse txtHarga.Text = "" OrElse txtMerek.Text = "" OrElse cbKualitas.Text = "" OrElse txtMadeIn.Text = "" OrElse txtStok.Text = "" Then
-            MsgBox("Data belum lengkap")
-        ElseIf Not (sepatu.Checked Or baju.Checked) Then
-            MsgBox("Data Belum Lengkap")
-        Else
-            If sepatu.Checked Then
-                jenisProduk = sepatu.Text
-            Else
-                jenisProduk = baju.Text
-            End If
-            ' Lakukan penyimpanan produk ke database
-            CMD = New MySqlCommand("INSERT INTO tbproduk (idProduk, nama, jenis, harga,merek,madeIn,kualitas,stok) VALUES ('" & idProduk & "', '" & txtNama.Text & "', '" & jenisProduk & "', '" & txtHarga.Text & "', '" & txtMerek.Text & "', '" & txtMadeIn.Text & "', '" & cbKualitas.Text & "', '" & txtStok.Text & "')", CONN)
-            CMD.ExecuteNonQuery()
-            MsgBox("Simpan Data Berhasil!")
-
-            ' Setelah berhasil menyimpan produk, panggil fungsi untuk mengatur ID produk berikutnya
-            SetProductID()
-
-            ' Kosongkan textbox setelah penyimpanan
-            txtNama.Clear()
-            txtHarga.Clear()
-            txtHarga.Clear()
-            txtHarga.Clear()
-            txtHarga.Clear()
-            txtHarga.Clear()
-
-            ' Refresh tampilan DataGridView setelah penyimpanan
-            tampilData()
-        End If
-    End Sub
     Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellClick
         If e.RowIndex >= 0 Then
             Dim selectedCustomer As DataGridViewRow = DataGridView1.Rows(e.RowIndex)
@@ -65,7 +33,7 @@ Public Class produk
             produk2.txtMadeIn.Text = selectedCustomer.Cells(5).Value.ToString()
             produk2.cbKualitas.Text = selectedCustomer.Cells(6).Value.ToString()
             produk2.txtStok.Text = selectedCustomer.Cells(7).Value.ToString()
-            produk2.Show()
+            Admin.childform(produk2)
         End If
     End Sub
     Private Sub SetProductID()
@@ -101,5 +69,13 @@ Public Class produk
             DataGridView1.Rows.Add(row)
         End While
         RD.Close()
+    End Sub
+
+    Private Sub btnTambah_Click(sender As Object, e As EventArgs) Handles btnTambah.Click
+        Admin.childform(tambah)
+    End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
     End Sub
 End Class

@@ -88,6 +88,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dashboard.Designer.vb">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -129,8 +135,17 @@
     <Compile Include="produk.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="tambah.Designer.vb">
+      <DependentUpon>tambah.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tambah.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="produk.resx">
       <DependentUpon>produk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambah.resx">
+      <DependentUpon>tambah.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

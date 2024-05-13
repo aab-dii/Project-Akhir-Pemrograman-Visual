@@ -6,6 +6,8 @@ Public Class produk2
         CMD.ExecuteNonQuery()
         MsgBox("Data berhasil dihapus")
         produk.tampilData()
+        dashboard.TampilkanTotalProduk()
+        Admin.childform(produk)
         Me.Close()
     End Sub
     Private Sub btnUbah_Click(sender As Object, e As EventArgs) Handles btnUbah.Click
@@ -27,13 +29,10 @@ Public Class produk2
                 CMD.ExecuteNonQuery()
                 MsgBox("Data berhasil diubah")
                 produk.tampilData()
-                Me.Close()
-                produk.Show()
+                dashboard.TampilkanTotalProduk()
+                Admin.childform(produk)
             End If
         End If
     End Sub
 
-    Private Sub produk2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class
