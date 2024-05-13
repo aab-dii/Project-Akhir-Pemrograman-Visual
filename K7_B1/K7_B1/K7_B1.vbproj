@@ -88,17 +88,34 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1FirstPage.Designer.vb">
+      <DependentUpon>1FirstPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1FirstPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2RegisPage.Designer.vb">
+      <DependentUpon>2RegisPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2RegisPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3LoginPage.Designer.vb">
+      <DependentUpon>3LoginPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3LoginPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.vb">
+      <DependentUpon>admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dashboard.Designer.vb">
       <DependentUpon>dashboard.vb</DependentUpon>
     </Compile>
     <Compile Include="dashboard.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="hapusProduk.Designer.vb">
@@ -143,11 +160,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="1FirstPage.resx">
+      <DependentUpon>1FirstPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2RegisPage.resx">
+      <DependentUpon>2RegisPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3LoginPage.resx">
+      <DependentUpon>3LoginPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="hapusProduk.resx">
       <DependentUpon>hapusProduk.vb</DependentUpon>
@@ -196,6 +222,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\key.png" />
+    <Content Include="Resources\register.png" />
+    <Content Include="Resources\shopping-bag.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
