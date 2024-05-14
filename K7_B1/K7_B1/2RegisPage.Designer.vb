@@ -56,11 +56,11 @@ Partial Class Form2
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.Window
         Me.Label4.Location = New System.Drawing.Point(151, 371)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(104, 18)
+        Me.Label4.Size = New System.Drawing.Size(90, 18)
         Me.Label4.TabIndex = 14
         Me.Label4.Text = "PASSWORD"
         '
@@ -74,11 +74,11 @@ Partial Class Form2
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(151, 328)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(101, 18)
+        Me.Label2.Size = New System.Drawing.Size(89, 18)
         Me.Label2.TabIndex = 12
         Me.Label2.Text = "USERNAME"
         '
@@ -92,29 +92,31 @@ Partial Class Form2
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Visby Round CF Heavy", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(242, 34)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(184, 25)
+        Me.Label3.Size = New System.Drawing.Size(160, 24)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "REGISTER PAGE"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(151, 285)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(56, 18)
+        Me.Label1.Size = New System.Drawing.Size(53, 18)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "EMAIL"
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.Button2.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(114, 436)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(399, 42)

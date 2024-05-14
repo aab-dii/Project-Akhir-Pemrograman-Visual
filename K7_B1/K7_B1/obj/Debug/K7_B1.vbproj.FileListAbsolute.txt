@@ -44,12 +44,8 @@ D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Vis
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form2.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.LoginPage.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Admin.resources
-D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.dashboard.resources
-D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.produk2.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.MenuUser.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
-D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.produk.resources
-D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.tambah.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.Cache
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form1.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form2.resources
@@ -57,3 +53,41 @@ D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Admin.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.MenuUser.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.tambah.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.AssemblyReference.cache
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form1.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form2.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.LoginPage.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.lblHeader.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.dashboard.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.produk2.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.MenuUser.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.produk.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.tambah.resources
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.cache
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.CoreCompileInputs.cache
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
+D:\KULLIAHHHHHH\semester 4\Praktikum Pemvis\PA\PA FIX BANGET\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe.config
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.pdb
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.xml
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\mysql.data.dll
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.AssemblyReference.cache
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form1.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form2.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.LoginPage.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.admin.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.customer.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.MenuUser.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.cache
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.CoreCompileInputs.cache
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.Up2Date
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.manageProduk.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.ubahProduk.resources
+D:\Coding\Visual Basic\Project-Akhir-Pemrograman-Visual\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.tambahProduk.resources

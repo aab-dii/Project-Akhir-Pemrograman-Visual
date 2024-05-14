@@ -112,16 +112,16 @@
     <Compile Include="admin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dashboard.Designer.vb">
-      <DependentUpon>dashboard.vb</DependentUpon>
+    <Compile Include="customer.Designer.vb">
+      <DependentUpon>customer.vb</DependentUpon>
     </Compile>
-    <Compile Include="dashboard.vb">
+    <Compile Include="customer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="hapusProduk.Designer.vb">
-      <DependentUpon>hapusProduk.vb</DependentUpon>
+    <Compile Include="manageProduk.Designer.vb">
+      <DependentUpon>manageProduk.vb</DependentUpon>
     </Compile>
-    <Compile Include="hapusProduk.vb">
+    <Compile Include="manageProduk.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MenuUser.Designer.vb">
@@ -135,6 +135,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -146,16 +147,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="produk.Designer.vb">
-      <DependentUpon>produk.vb</DependentUpon>
+    <Compile Include="tambahProduk.Designer.vb">
+      <DependentUpon>tambahProduk.vb</DependentUpon>
     </Compile>
-    <Compile Include="produk.vb">
+    <Compile Include="tambahProduk.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="tambah.Designer.vb">
-      <DependentUpon>tambah.vb</DependentUpon>
+    <Compile Include="ubahProduk.Designer.vb">
+      <DependentUpon>ubahProduk.vb</DependentUpon>
     </Compile>
-    <Compile Include="tambah.vb">
+    <Compile Include="ubahProduk.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -172,11 +173,11 @@
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dashboard.resx">
-      <DependentUpon>dashboard.vb</DependentUpon>
+    <EmbeddedResource Include="customer.resx">
+      <DependentUpon>customer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="hapusProduk.resx">
-      <DependentUpon>hapusProduk.vb</DependentUpon>
+    <EmbeddedResource Include="manageProduk.resx">
+      <DependentUpon>manageProduk.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuUser.resx">
       <DependentUpon>MenuUser.vb</DependentUpon>
@@ -187,11 +188,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="produk.resx">
-      <DependentUpon>produk.vb</DependentUpon>
+    <EmbeddedResource Include="tambahProduk.resx">
+      <DependentUpon>tambahProduk.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="tambah.resx">
-      <DependentUpon>tambah.vb</DependentUpon>
+    <EmbeddedResource Include="ubahProduk.resx">
+      <DependentUpon>ubahProduk.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -224,6 +225,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\shopping-cart %282%29.png" />
+    <None Include="Resources\switch1.png" />
+    <None Include="Resources\switch.png" />
+    <None Include="Resources\slip.png" />
+    <None Include="Resources\delivery-box.png" />
+    <None Include="Resources\delivery-box1.png" />
+    <None Include="Resources\checklist.png" />
+    <None Include="Resources\buy.png" />
     <Content Include="Resources\key.png" />
     <Content Include="Resources\register.png" />
     <Content Include="Resources\shopping-bag.png" />

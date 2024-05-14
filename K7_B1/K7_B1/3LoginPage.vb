@@ -22,7 +22,7 @@ Public Class LoginPage
 
             If role = "admin" Then
                 ' Masuk ke menu admin
-                Admin.Show()
+                admin.Show()
                 Me.Hide()
             Else
                 ' Masuk ke menu user
@@ -33,5 +33,9 @@ Public Class LoginPage
             MessageBox.Show("Username atau Password Salah")
         End If
         RD.Close()
+    End Sub
+
+    Private Sub LoginPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        koneksi()
     End Sub
 End Class
