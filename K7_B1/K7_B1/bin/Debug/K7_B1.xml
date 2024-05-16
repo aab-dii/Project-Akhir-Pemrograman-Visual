@@ -6,62 +6,80 @@ K7_B1
 </name>
 </assembly>
 <members>
+<member name="T:K7_B1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.buy">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.buy">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.checklist">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.checklist">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.delivery_box">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.delivery_box">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.delivery_box1">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.delivery_box1">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.key">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.key">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.register">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.previous">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.shopping_bag">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.register">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.shopping_cart__2_">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.shopping_bag">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.slip">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.shopping_cart__2_">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.switch">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.slip">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:K7_B1.My.Resources.Resources.switch1">
-	<summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.switch">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="T:K7_B1.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
+</member>
+<member name="P:K7_B1.My.Resources.Resources.switch1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 </members>

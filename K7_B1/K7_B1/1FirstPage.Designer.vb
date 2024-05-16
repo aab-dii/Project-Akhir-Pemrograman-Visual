@@ -24,7 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnlogin = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
@@ -35,7 +35,7 @@ Partial Class Form1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(78, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.btnlogin)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Location = New System.Drawing.Point(-18, -4)
@@ -56,19 +56,19 @@ Partial Class Form1
         Me.Button2.Text = "REGISTER"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnlogin
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(110, Byte), Integer))
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button1.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(125, 412)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(399, 42)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "LOGIN"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnlogin.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.btnlogin.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.btnlogin.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnlogin.ForeColor = System.Drawing.Color.White
+        Me.btnlogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnlogin.Location = New System.Drawing.Point(125, 412)
+        Me.btnlogin.Name = "btnlogin"
+        Me.btnlogin.Size = New System.Drawing.Size(399, 42)
+        Me.btnlogin.TabIndex = 4
+        Me.btnlogin.Text = "LOGIN"
+        Me.btnlogin.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -78,7 +78,7 @@ Partial Class Form1
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(86, 315)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(461, 53)
+        Me.Label1.Size = New System.Drawing.Size(448, 52)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "STREETWEAR STORE"
         '
@@ -109,7 +109,7 @@ Partial Class Form1
     End Sub
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnlogin As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class

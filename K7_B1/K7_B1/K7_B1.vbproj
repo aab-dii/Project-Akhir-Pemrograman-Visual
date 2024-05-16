@@ -253,6 +253,8 @@
     <None Include="Resources\checklist.png" />
     <None Include="Resources\buy.png" />
     <Content Include="Resources\key.png" />
+    <Content Include="Resources\previous.png" />
+    <None Include="Resources\previous1.png" />
     <Content Include="Resources\register.png" />
     <Content Include="Resources\shopping-bag.png" />
   </ItemGroup>

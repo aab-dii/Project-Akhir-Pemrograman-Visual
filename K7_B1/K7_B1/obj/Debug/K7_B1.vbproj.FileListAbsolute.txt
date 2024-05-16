@@ -112,3 +112,26 @@ D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrog
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.dashboard.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Cart.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Products.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form1.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form2.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.LoginPage.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.admin.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Cart.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.customer.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.dashboard.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.manageProduk.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Products.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.tambahProduk.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.ubahProduk.resources
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.cache
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe.config
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.pdb
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.xml
+C:\Users\Acer\OneDrive\Documents\PA PEMVIS\New folder\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.Up2Date

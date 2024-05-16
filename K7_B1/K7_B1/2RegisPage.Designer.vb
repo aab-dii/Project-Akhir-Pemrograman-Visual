@@ -31,14 +31,17 @@ Partial Class Form2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(78, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.PictureBox2)
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Controls.Add(Me.txtpass)
         Me.Panel2.Controls.Add(Me.Label2)
@@ -131,6 +134,16 @@ Partial Class Form2
         Me.txtEmail.Size = New System.Drawing.Size(325, 22)
         Me.txtEmail.TabIndex = 5
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.previous
+        Me.PictureBox2.Location = New System.Drawing.Point(15, 25)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(58, 55)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.K7_B1.My.Resources.Resources.register
@@ -151,6 +164,7 @@ Partial Class Form2
         Me.Text = "Form2"
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -165,4 +179,5 @@ Partial Class Form2
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents txtEmail As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

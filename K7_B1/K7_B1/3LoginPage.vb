@@ -39,5 +39,23 @@ Public Class LoginPage
 
     Private Sub LoginPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         koneksi()
+        txtPassword.PasswordChar = "☠"
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = True Then
+            txtPassword.PasswordChar = ""
+        Else
+            txtPassword.PasswordChar = "☠"
+        End If
+    End Sub
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Form1.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Form2.Show()
+        Me.Hide()
     End Sub
 End Class
