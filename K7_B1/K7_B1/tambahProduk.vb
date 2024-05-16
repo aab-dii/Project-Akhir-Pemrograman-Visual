@@ -62,6 +62,7 @@ Public Class tambahProduk
     End Sub
 
     Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
+        koneksi()
         ' Lakukan pengecekan jika nama produk dan harga produk telah diisi
         If txtNama.Text = "" OrElse txtHarga.Text = "" OrElse txtMerek.Text = "" OrElse cbKualitas.Text = "" OrElse txtMadeIn.Text = "" OrElse txtStok.Text = "" Then
             MsgBox("Data belum lengkap")

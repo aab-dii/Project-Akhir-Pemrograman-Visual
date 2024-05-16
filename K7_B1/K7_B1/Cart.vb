@@ -3,7 +3,7 @@ Imports System.IO
 
 Public Class Cart
     Private countProduct As Integer = 0
-
+    Dim iduser As Integer = LoginPage.idUser
     Public Sub Tampil()
         ' Kosongkan FlowLayoutPanel sebelum memuat data baru
         PanelProduk.Controls.Clear()
@@ -11,15 +11,21 @@ Public Class Cart
         PanelProduk.FlowDirection = FlowDirection.TopDown ' Mengatur flow direction ke vertikal
 
         Try
-            ' Buka koneksi jika belum terbuka
+            ' Lakukan koneksi ke database
+            koneksi()
 
-            ' Lakukan koneksi ke database dan eksekusi query untuk mengambil data produk
-            Dim query As String = "SELECT * FROM tbproduk"
+            ' Query untuk mengambil data dari tbproduk yang sudah ada di tbkeranjang sesuai dengan idUser saat ini
+            Dim query As String = "SELECT tbproduk.idProduk, tbproduk.nama, tbproduk.harga, tbproduk.gambar, tbkeranjang.jumlah " &
+                                  "FROM tbproduk INNER JOIN tbkeranjang " &
+                                  "ON tbproduk.idProduk = tbkeranjang.idProduk " &
+                                  "WHERE tbkeranjang.idUser = @idUser"
             Dim cmd As New MySqlCommand(query, CONN)
+            cmd.Parameters.AddWithValue("@idUser", iduser)
             Dim reader As MySqlDataReader = cmd.ExecuteReader()
 
-            ' Loop melalui setiap baris data dan tambahkan ke dalam FlowLayoutPanel
+            ' Loop melalui setiap baris data hasil query
             While reader.Read()
+                ' Buat panel untuk menampilkan informasi produk
                 Dim panelProdukItem As New Panel()
                 panelProdukItem.BackColor = Color.White
                 panelProdukItem.BorderStyle = BorderStyle.FixedSingle
@@ -37,16 +43,16 @@ Public Class Cart
                 labelHarga.AutoSize = True
                 labelHarga.Location = New Point(150, 30)
 
-                ' Tambahkan PictureBox untuk menampilkan gambar
+                Dim labelJumlah As New Label()
+                labelJumlah.Text = "Jumlah: " & reader("jumlah").ToString()
+                labelJumlah.AutoSize = True
+                labelJumlah.Location = New Point(150, 50)
+
+                ' Tambahkan PictureBox untuk menampilkan gambar (jika ada)
                 Dim pictureBox As New PictureBox()
                 If Not IsDBNull(reader("gambar")) AndAlso reader("gambar").ToString() <> "" Then
-                    ' Dapatkan path relatif dari database
                     Dim gambarPathRelatif As String = reader("gambar").ToString()
-
-                    ' Gabungkan path relatif dengan direktori kerja proyek
                     Dim gambarPathAbsolut As String = Path.Combine(Application.StartupPath, gambarPathRelatif)
-
-                    ' Tampilkan gambar jika file gambar ada
                     If File.Exists(gambarPathAbsolut) Then
                         pictureBox.Image = Image.FromFile(gambarPathAbsolut)
                     End If
@@ -55,40 +61,31 @@ Public Class Cart
                 pictureBox.SizeMode = PictureBoxSizeMode.Zoom
                 pictureBox.Location = New Point(10, 10)
 
-                ' Tambahkan tombol hapus
-                Dim produkBeli As New Button()
-                produkBeli.Text = "Beli"
-                produkBeli.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
-                produkBeli.Size = New Size(75, 30)
-                produkBeli.Location = New Point(300, 10)
-                AddHandler produkBeli.Click, AddressOf ProdukBeli_Click
-
-                ' Tambahkan tombol ubah
-                Dim produkKeranjang As New Button()
-                produkKeranjang.Text = "Keranjang"
-                produkKeranjang.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
-                produkKeranjang.Size = New Size(75, 30)
-                produkKeranjang.Location = New Point(300, 50)
-                AddHandler produkKeranjang.Click, AddressOf ProdukKeranjang_Click
-
                 ' Tambahkan kontrol ke dalam panel produk
-                panelProdukItem.Controls.Add(produkBeli)
-                panelProdukItem.Controls.Add(produkKeranjang)
                 panelProdukItem.Controls.Add(pictureBox)
                 panelProdukItem.Controls.Add(labelHarga)
                 panelProdukItem.Controls.Add(labelNama)
+                panelProdukItem.Controls.Add(labelJumlah)
 
                 ' Tambahkan panel produk ke dalam FlowLayoutPanel
-                panelProduk.Controls.Add(panelProdukItem)
+                PanelProduk.Controls.Add(panelProdukItem)
             End While
 
-            reader.Close()
+            reader.Close() ' Tutup DataReader setelah selesai membaca data
         Catch ex As Exception
             MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
             ' Tutup koneksi setelah selesai
+            If CONN.State = ConnectionState.Open Then
+                CONN.Close()
+            End If
         End Try
     End Sub
+
+
+
+
+
 
     Private Sub ProdukBeli_Click(sender As Object, e As EventArgs)
         Throw New NotImplementedException
@@ -102,5 +99,9 @@ Public Class Cart
     Private Sub Cart_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         koneksi()
         Tampil()
+    End Sub
+
+    Private Sub Chekout_Click(sender As Object, e As EventArgs) Handles Chekout.Click
+
     End Sub
 End Class

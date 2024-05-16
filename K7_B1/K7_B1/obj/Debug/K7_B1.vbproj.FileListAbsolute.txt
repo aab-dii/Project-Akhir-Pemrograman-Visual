@@ -206,3 +206,25 @@ D:\Coding\Visual Basic\Ini Paling FIxxxxxx\Project-Akhir-Pemrograman-Visual\K7_B
 D:\Coding\Visual Basic\Ini Paling FIxxxxxx\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
 D:\Coding\Visual Basic\Ini Paling FIxxxxxx\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
 D:\Coding\Visual Basic\Ini Paling FIxxxxxx\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe.config
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.pdb
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.xml
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbprojResolveAssemblyReference.cache
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form1.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form2.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.LoginPage.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.admin.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Cart.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.customer.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.dashboard.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Laporan.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.manageProduk.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Products.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.tambahProduk.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.ubahProduk.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.Cache
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
