@@ -82,6 +82,11 @@ K7_B1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.hexagon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.key">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

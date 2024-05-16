@@ -76,7 +76,7 @@ Partial Class manageProduk
         Me.Controls.Add(Me.btnBatal)
         Me.Controls.Add(Me.btnTambah)
         Me.Controls.Add(Me.panelProduk)
-        Me.Cursor = System.Windows.Forms.Cursors.No
+        Me.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.DoubleBuffered = True
         Me.Name = "manageProduk"
         Me.Text = "manageProduk"
