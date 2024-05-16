@@ -130,6 +130,12 @@
     <Compile Include="dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Laporan.Designer.vb">
+      <DependentUpon>Laporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="manageProduk.Designer.vb">
       <DependentUpon>manageProduk.vb</DependentUpon>
     </Compile>
@@ -194,6 +200,9 @@
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Laporan.resx">
+      <DependentUpon>Laporan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="manageProduk.resx">
       <DependentUpon>manageProduk.vb</DependentUpon>
     </EmbeddedResource>
@@ -244,6 +253,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\balik.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\hexagon.png" />
+    <Content Include="Resources\status.png" />
+    <Content Include="Resources\team-management.png" />
     <None Include="Resources\shopping-cart %282%29.png" />
     <None Include="Resources\switch1.png" />
     <None Include="Resources\switch.png" />
@@ -252,9 +266,18 @@
     <None Include="Resources\delivery-box1.png" />
     <None Include="Resources\checklist.png" />
     <None Include="Resources\buy.png" />
+    <Content Include="Resources\all.png" />
+    <Content Include="Resources\Cancel.png" />
+    <Content Include="Resources\checklist1.png" />
+    <Content Include="Resources\computer.png" />
+    <Content Include="Resources\dashboard.png" />
+    <Content Include="Resources\diskette.png" />
+    <Content Include="Resources\gallery.png" />
     <Content Include="Resources\key.png" />
+    <Content Include="Resources\multiply.png" />
     <Content Include="Resources\previous.png" />
-    <None Include="Resources\previous1.png" />
+    <None Include="Resources\profits1.png" />
+    <Content Include="Resources\profits.png" />
     <Content Include="Resources\register.png" />
     <Content Include="Resources\shopping-bag.png" />
   </ItemGroup>

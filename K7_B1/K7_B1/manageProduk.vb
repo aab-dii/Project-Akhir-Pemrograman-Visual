@@ -2,7 +2,7 @@
 Imports System.IO
 
 Public Class manageProduk
-
+    Private currentProduk As String = Nothing
     Private countProduct As Integer = 0
 
     Public Sub LoadProdukToFlowLayoutPanel()
@@ -27,19 +27,34 @@ Public Class manageProduk
                 Dim panelProdukItem As New Panel()
                 panelProdukItem.BackColor = Color.White
                 panelProdukItem.BorderStyle = BorderStyle.FixedSingle
-                panelProdukItem.Size = New Size(300, 150)
+                panelProdukItem.Size = New Size(500, 150)
                 panelProdukItem.Margin = New Padding(10)
 
                 ' Tambahkan label untuk menampilkan informasi produk
                 Dim labelNama As New Label()
                 labelNama.Text = reader("nama").ToString()
                 labelNama.AutoSize = True
-                labelNama.Location = New Point(10, 10)
+                labelNama.Location = New Point(150, 10)
 
                 Dim labelHarga As New Label()
                 labelHarga.Text = "Harga: " & reader("harga").ToString()
                 labelHarga.AutoSize = True
-                labelHarga.Location = New Point(10, 30)
+                labelHarga.Location = New Point(150, 30)
+
+                Dim labelStok As New Label()
+                labelStok.Text = "Stok: " & reader("stok").ToString()
+                labelStok.AutoSize = True
+                labelStok.Location = New Point(150, 50)
+
+                Dim labelMerk As New Label()
+                labelMerk.Text = "Merek: " & reader("merek").ToString()
+                labelMerk.AutoSize = True
+                labelMerk.Location = New Point(150, 70)
+
+                Dim labelJenis As New Label()
+                labelJenis.Text = "Jenis: " & reader("jenis").ToString()
+                labelJenis.AutoSize = True
+                labelJenis.Location = New Point(150, 90)
 
                 ' Tambahkan PictureBox untuk menampilkan gambar
                 Dim pictureBox As New PictureBox()
@@ -57,14 +72,14 @@ Public Class manageProduk
                 End If
                 pictureBox.Size = New Size(100, 100)
                 pictureBox.SizeMode = PictureBoxSizeMode.Zoom
-                pictureBox.Location = New Point(150, 10)
+                pictureBox.Location = New Point(10, 10)
 
                 ' Tambahkan tombol hapus
                 Dim produkDel As New Button()
                 produkDel.Text = "Hapus"
                 produkDel.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
                 produkDel.Size = New Size(75, 30)
-                produkDel.Location = New Point(200, 10)
+                produkDel.Location = New Point(400, 10)
                 AddHandler produkDel.Click, AddressOf ProdukDel_Click
 
                 ' Tambahkan tombol ubah
@@ -72,13 +87,16 @@ Public Class manageProduk
                 produkUbah.Text = "Ubah"
                 produkUbah.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
                 produkUbah.Size = New Size(75, 30)
-                produkUbah.Location = New Point(200, 50)
+                produkUbah.Location = New Point(400, 50)
                 AddHandler produkUbah.Click, AddressOf ProdukUbah_Click
 
                 ' Tambahkan kontrol ke dalam panel produk
                 panelProdukItem.Controls.Add(produkDel)
                 panelProdukItem.Controls.Add(produkUbah)
                 panelProdukItem.Controls.Add(pictureBox)
+                panelProdukItem.Controls.Add(labelJenis)
+                panelProdukItem.Controls.Add(labelMerk)
+                panelProdukItem.Controls.Add(labelStok)
                 panelProdukItem.Controls.Add(labelHarga)
                 panelProdukItem.Controls.Add(labelNama)
 
@@ -130,8 +148,9 @@ Public Class manageProduk
         Dim idProduk As String = btn.Tag.ToString()
 
         ' Buka form ubah produk dan isi data produk
-        Dim formUbah As New UbahProduk(idProduk)
-        formUbah.ShowDialog()
+        Dim formUbah As New ubahProduk(idProduk)
+        admin.lblHeaderMenu.Text = "Ubah Produk"
+        admin.childform(formUbah)
 
         ' Refresh data setelah melakukan pengubahan
         LoadProdukToFlowLayoutPanel()
@@ -142,9 +161,12 @@ Public Class manageProduk
         LoadProdukToFlowLayoutPanel()
     End Sub
 
-
-    Private Sub btnTambah_Click(sender As Object, e As EventArgs) Handles btnTambah.Click
-        tambahProduk.Show()
+    Private Sub btnTambah_Click_1(sender As Object, e As EventArgs) Handles btnTambah.Click
+        admin.lblHeaderMenu.Text = "Tambah Produk"
+        admin.childform(tambahProduk)
     End Sub
 
+    Private Sub panelProduk_Paint(sender As Object, e As PaintEventArgs) Handles panelProduk.Paint
+
+    End Sub
 End Class

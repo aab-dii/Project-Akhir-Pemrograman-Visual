@@ -47,7 +47,7 @@ Public Class ubahProduk
         End Try
     End Sub
 
-    Private Sub btnPilihGambar_Click(sender As Object, e As EventArgs) Handles btnPilihGambar.Click
+    Private Sub btnPilihGambar_Click(sender As Object, e As EventArgs)
         Dim openFileDialog As New OpenFileDialog()
         openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp"
 
@@ -87,7 +87,7 @@ Public Class ubahProduk
         End Try
     End Sub
 
-    Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
+    Private Sub btnSimpan_Click(sender As Object, e As EventArgs)
         If txtNama.Text = "" Or txtHarga.Text = "" Then
             MsgBox("Data belum lengkap!")
         Else
@@ -127,5 +127,45 @@ Public Class ubahProduk
                 CONN.Close()
             End Try
         End If
+    End Sub
+
+    Private Sub btnBatal_Click_1(sender As Object, e As EventArgs) Handles btnBatal.Click
+        admin.childform(manageProduk)
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
+
+    Private Sub btnSimpan_Click_1(sender As Object, e As EventArgs) Handles btnSimpan.Click
+
+    End Sub
+
+    Private Sub label1_Click(sender As Object, e As EventArgs) Handles label1.Click
+
+    End Sub
+
+    Private Sub label2_Click(sender As Object, e As EventArgs) Handles label2.Click
+
+    End Sub
+
+    Private Sub label3_Click(sender As Object, e As EventArgs) Handles label3.Click
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+
     End Sub
 End Class

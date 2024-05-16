@@ -22,12 +22,42 @@ K7_B1
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.all">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.balik">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.buy">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.Cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.checklist">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.checklist1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.computer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.dashboard">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -42,12 +72,42 @@ K7_B1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.diskette">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.gallery">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.key">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.multiply">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.previous">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.profits">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.profits1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -72,12 +132,22 @@ K7_B1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.status">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.switch">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:K7_B1.My.Resources.Resources.switch1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.team_management">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

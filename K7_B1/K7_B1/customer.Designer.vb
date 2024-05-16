@@ -54,7 +54,7 @@ Partial Class customer
         Me.btnLogout.Dock = System.Windows.Forms.DockStyle.Top
         Me.btnLogout.FlatAppearance.BorderSize = 0
         Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLogout.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogout.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogout.ForeColor = System.Drawing.Color.White
         Me.btnLogout.Image = Global.K7_B1.My.Resources.Resources.switch1
         Me.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -73,7 +73,7 @@ Partial Class customer
         Me.btnCart.Dock = System.Windows.Forms.DockStyle.Top
         Me.btnCart.FlatAppearance.BorderSize = 0
         Me.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCart.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCart.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCart.ForeColor = System.Drawing.Color.White
         Me.btnCart.Image = Global.K7_B1.My.Resources.Resources.shopping_cart__2_
         Me.btnCart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -92,7 +92,7 @@ Partial Class customer
         Me.btnProducts.Dock = System.Windows.Forms.DockStyle.Top
         Me.btnProducts.FlatAppearance.BorderSize = 0
         Me.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnProducts.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnProducts.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnProducts.ForeColor = System.Drawing.Color.White
         Me.btnProducts.Image = Global.K7_B1.My.Resources.Resources.buy
         Me.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -151,11 +151,11 @@ Partial Class customer
         'lblHeaderMenu
         '
         Me.lblHeaderMenu.AutoSize = True
-        Me.lblHeaderMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHeaderMenu.Font = New System.Drawing.Font("Visby Round CF Heavy", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
         Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 26)
         Me.lblHeaderMenu.Name = "lblHeaderMenu"
-        Me.lblHeaderMenu.Size = New System.Drawing.Size(220, 29)
+        Me.lblHeaderMenu.Size = New System.Drawing.Size(218, 28)
         Me.lblHeaderMenu.TabIndex = 8
         Me.lblHeaderMenu.Text = "Dashboard Admin"
         Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter

@@ -136,11 +136,11 @@ Partial Class Form2
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.previous
+        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.balik
         Me.PictureBox2.Location = New System.Drawing.Point(15, 25)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(58, 55)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.Size = New System.Drawing.Size(64, 64)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
         '

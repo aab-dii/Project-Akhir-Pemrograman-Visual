@@ -27,6 +27,7 @@ Partial Class admin
         Me.btnInvoice = New System.Windows.Forms.Button()
         Me.btnManageOrders = New System.Windows.Forms.Button()
         Me.btnManageProducts = New System.Windows.Forms.Button()
+        Me.btnDashboard = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -44,6 +45,7 @@ Partial Class admin
         Me.Panel1.Controls.Add(Me.btnInvoice)
         Me.Panel1.Controls.Add(Me.btnManageOrders)
         Me.Panel1.Controls.Add(Me.btnManageProducts)
+        Me.Panel1.Controls.Add(Me.btnDashboard)
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Location = New System.Drawing.Point(1, 0)
         Me.Panel1.Name = "Panel1"
@@ -59,11 +61,11 @@ Partial Class admin
         Me.btnLogout.ForeColor = System.Drawing.Color.White
         Me.btnLogout.Image = Global.K7_B1.My.Resources.Resources.switch1
         Me.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLogout.Location = New System.Drawing.Point(0, 361)
+        Me.btnLogout.Location = New System.Drawing.Point(0, 448)
         Me.btnLogout.Name = "btnLogout"
         Me.btnLogout.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.btnLogout.Size = New System.Drawing.Size(316, 87)
-        Me.btnLogout.TabIndex = 4
+        Me.btnLogout.TabIndex = 12
         Me.btnLogout.Text = "    Logout"
         Me.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -78,11 +80,11 @@ Partial Class admin
         Me.btnInvoice.ForeColor = System.Drawing.Color.White
         Me.btnInvoice.Image = Global.K7_B1.My.Resources.Resources.slip
         Me.btnInvoice.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnInvoice.Location = New System.Drawing.Point(0, 274)
+        Me.btnInvoice.Location = New System.Drawing.Point(0, 361)
         Me.btnInvoice.Name = "btnInvoice"
         Me.btnInvoice.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.btnInvoice.Size = New System.Drawing.Size(316, 87)
-        Me.btnInvoice.TabIndex = 3
+        Me.btnInvoice.TabIndex = 11
         Me.btnInvoice.Text = "    Invoice"
         Me.btnInvoice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnInvoice.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -97,11 +99,11 @@ Partial Class admin
         Me.btnManageOrders.ForeColor = System.Drawing.Color.White
         Me.btnManageOrders.Image = Global.K7_B1.My.Resources.Resources.checklist
         Me.btnManageOrders.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageOrders.Location = New System.Drawing.Point(0, 187)
+        Me.btnManageOrders.Location = New System.Drawing.Point(0, 274)
         Me.btnManageOrders.Name = "btnManageOrders"
         Me.btnManageOrders.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.btnManageOrders.Size = New System.Drawing.Size(316, 87)
-        Me.btnManageOrders.TabIndex = 2
+        Me.btnManageOrders.TabIndex = 10
         Me.btnManageOrders.Text = "    Manage Orders"
         Me.btnManageOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnManageOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -116,15 +118,34 @@ Partial Class admin
         Me.btnManageProducts.ForeColor = System.Drawing.Color.White
         Me.btnManageProducts.Image = Global.K7_B1.My.Resources.Resources.delivery_box1
         Me.btnManageProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageProducts.Location = New System.Drawing.Point(0, 100)
+        Me.btnManageProducts.Location = New System.Drawing.Point(0, 187)
         Me.btnManageProducts.Name = "btnManageProducts"
         Me.btnManageProducts.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.btnManageProducts.Size = New System.Drawing.Size(316, 87)
-        Me.btnManageProducts.TabIndex = 1
+        Me.btnManageProducts.TabIndex = 5
         Me.btnManageProducts.Text = "    Manage Products"
         Me.btnManageProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnManageProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnManageProducts.UseVisualStyleBackColor = True
+        '
+        'btnDashboard
+        '
+        Me.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnDashboard.FlatAppearance.BorderSize = 0
+        Me.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDashboard.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDashboard.ForeColor = System.Drawing.Color.White
+        Me.btnDashboard.Image = Global.K7_B1.My.Resources.Resources.dashboard
+        Me.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnDashboard.Location = New System.Drawing.Point(0, 100)
+        Me.btnDashboard.Name = "btnDashboard"
+        Me.btnDashboard.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnDashboard.Size = New System.Drawing.Size(316, 87)
+        Me.btnDashboard.TabIndex = 1
+        Me.btnDashboard.Text = "    Dashboard"
+        Me.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnDashboard.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -163,9 +184,8 @@ Partial Class admin
         Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
         Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 37)
         Me.lblHeaderMenu.Name = "lblHeaderMenu"
-        Me.lblHeaderMenu.Size = New System.Drawing.Size(220, 29)
+        Me.lblHeaderMenu.Size = New System.Drawing.Size(0, 29)
         Me.lblHeaderMenu.TabIndex = 8
-        Me.lblHeaderMenu.Text = "Dashboard Admin"
         Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'panelOutput
@@ -196,12 +216,13 @@ Partial Class admin
     End Sub
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents btnManageProducts As Button
+    Friend WithEvents btnDashboard As Button
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents btnLogout As Button
-    Friend WithEvents btnManageOrders As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents lblHeaderMenu As Label
-    Friend WithEvents btnInvoice As Button
     Friend WithEvents panelOutput As Panel
+    Friend WithEvents btnLogout As Button
+    Friend WithEvents btnInvoice As Button
+    Friend WithEvents btnManageOrders As Button
+    Friend WithEvents btnManageProducts As Button
 End Class
