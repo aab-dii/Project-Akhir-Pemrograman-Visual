@@ -39,9 +39,9 @@ Partial Class tambahProduk
         Me.label2 = New System.Windows.Forms.Label()
         Me.label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.btnBatal = New System.Windows.Forms.Button()
         Me.btnSimpan = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnPilihGambar = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -224,6 +224,7 @@ Partial Class tambahProduk
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(78, Byte), Integer))
+        Me.Panel1.BackgroundImage = Global.K7_B1.My.Resources.Resources.hexafix5
         Me.Panel1.Controls.Add(Me.btnBatal)
         Me.Panel1.Controls.Add(Me.btnSimpan)
         Me.Panel1.Controls.Add(Me.Panel2)
@@ -231,30 +232,6 @@ Partial Class tambahProduk
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1028, 669)
         Me.Panel1.TabIndex = 57
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(177, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Panel2.Controls.Add(Me.cbKualitas)
-        Me.Panel2.Controls.Add(Me.PictureBox1)
-        Me.Panel2.Controls.Add(Me.txtNama)
-        Me.Panel2.Controls.Add(Me.GroupBox1)
-        Me.Panel2.Controls.Add(Me.btnPilihGambar)
-        Me.Panel2.Controls.Add(Me.label1)
-        Me.Panel2.Controls.Add(Me.txtStok)
-        Me.Panel2.Controls.Add(Me.label2)
-        Me.Panel2.Controls.Add(Me.Label7)
-        Me.Panel2.Controls.Add(Me.label3)
-        Me.Panel2.Controls.Add(Me.txtMadeIn)
-        Me.Panel2.Controls.Add(Me.txtHarga)
-        Me.Panel2.Controls.Add(Me.txtMerek)
-        Me.Panel2.Controls.Add(Me.Label6)
-        Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Controls.Add(Me.Label5)
-        Me.Panel2.Location = New System.Drawing.Point(113, 83)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(798, 422)
-        Me.Panel2.TabIndex = 57
         '
         'btnBatal
         '
@@ -284,6 +261,30 @@ Partial Class tambahProduk
         Me.btnSimpan.Text = "Simpan"
         Me.btnSimpan.UseVisualStyleBackColor = False
         '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(177, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.cbKualitas)
+        Me.Panel2.Controls.Add(Me.PictureBox1)
+        Me.Panel2.Controls.Add(Me.txtNama)
+        Me.Panel2.Controls.Add(Me.GroupBox1)
+        Me.Panel2.Controls.Add(Me.btnPilihGambar)
+        Me.Panel2.Controls.Add(Me.label1)
+        Me.Panel2.Controls.Add(Me.txtStok)
+        Me.Panel2.Controls.Add(Me.label2)
+        Me.Panel2.Controls.Add(Me.Label7)
+        Me.Panel2.Controls.Add(Me.label3)
+        Me.Panel2.Controls.Add(Me.txtMadeIn)
+        Me.Panel2.Controls.Add(Me.txtHarga)
+        Me.Panel2.Controls.Add(Me.txtMerek)
+        Me.Panel2.Controls.Add(Me.Label6)
+        Me.Panel2.Controls.Add(Me.Label4)
+        Me.Panel2.Controls.Add(Me.Label5)
+        Me.Panel2.Location = New System.Drawing.Point(113, 83)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(798, 422)
+        Me.Panel2.TabIndex = 57
+        '
         'PictureBox1
         '
         Me.PictureBox1.Location = New System.Drawing.Point(452, 70)
@@ -310,6 +311,7 @@ Partial Class tambahProduk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.K7_B1.My.Resources.Resources.hexafix
         Me.ClientSize = New System.Drawing.Size(1021, 646)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "tambahProduk"

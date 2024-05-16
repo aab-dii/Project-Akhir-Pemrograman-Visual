@@ -256,6 +256,14 @@
     <None Include="Resources\balik.png" />
     <None Include="Resources\plus.png" />
     <None Include="Resources\hexagon.png" />
+    <None Include="Resources\20112744_13709.jpg" />
+    <None Include="Resources\hexafix.png" />
+    <None Include="Resources\hexafix1.png" />
+    <None Include="Resources\hexafix2.png" />
+    <None Include="Resources\hexafix3.png" />
+    <None Include="Resources\hexafix4.png" />
+    <None Include="Resources\hexafix5.png" />
+    <None Include="Resources\hexafix6.png" />
     <Content Include="Resources\status.png" />
     <Content Include="Resources\team-management.png" />
     <None Include="Resources\shopping-cart %282%29.png" />

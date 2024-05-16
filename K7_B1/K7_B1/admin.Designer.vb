@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class admin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,19 +20,18 @@ Partial Class admin
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.btnLogout = New System.Windows.Forms.Button()
-        Me.btnInvoice = New System.Windows.Forms.Button()
-        Me.btnManageOrders = New System.Windows.Forms.Button()
-        Me.btnManageProducts = New System.Windows.Forms.Button()
-        Me.btnDashboard = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.lblHeaderMenu = New System.Windows.Forms.Label()
         Me.panelOutput = New System.Windows.Forms.Panel()
+        Me.btnLogout = New System.Windows.Forms.Button()
+        Me.btnInvoice = New System.Windows.Forms.Button()
+        Me.btnManageOrders = New System.Windows.Forms.Button()
+        Me.btnDashboard = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -44,108 +43,12 @@ Partial Class admin
         Me.Panel1.Controls.Add(Me.btnLogout)
         Me.Panel1.Controls.Add(Me.btnInvoice)
         Me.Panel1.Controls.Add(Me.btnManageOrders)
-        Me.Panel1.Controls.Add(Me.btnManageProducts)
         Me.Panel1.Controls.Add(Me.btnDashboard)
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Location = New System.Drawing.Point(1, 0)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(316, 741)
         Me.Panel1.TabIndex = 5
-        '
-        'btnLogout
-        '
-        Me.btnLogout.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnLogout.FlatAppearance.BorderSize = 0
-        Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLogout.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogout.ForeColor = System.Drawing.Color.White
-        Me.btnLogout.Image = Global.K7_B1.My.Resources.Resources.switch1
-        Me.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLogout.Location = New System.Drawing.Point(0, 448)
-        Me.btnLogout.Name = "btnLogout"
-        Me.btnLogout.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnLogout.Size = New System.Drawing.Size(316, 87)
-        Me.btnLogout.TabIndex = 12
-        Me.btnLogout.Text = "    Logout"
-        Me.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnLogout.UseVisualStyleBackColor = True
-        '
-        'btnInvoice
-        '
-        Me.btnInvoice.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnInvoice.FlatAppearance.BorderSize = 0
-        Me.btnInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnInvoice.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnInvoice.ForeColor = System.Drawing.Color.White
-        Me.btnInvoice.Image = Global.K7_B1.My.Resources.Resources.slip
-        Me.btnInvoice.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnInvoice.Location = New System.Drawing.Point(0, 361)
-        Me.btnInvoice.Name = "btnInvoice"
-        Me.btnInvoice.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnInvoice.Size = New System.Drawing.Size(316, 87)
-        Me.btnInvoice.TabIndex = 11
-        Me.btnInvoice.Text = "    Invoice"
-        Me.btnInvoice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnInvoice.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnInvoice.UseVisualStyleBackColor = True
-        '
-        'btnManageOrders
-        '
-        Me.btnManageOrders.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnManageOrders.FlatAppearance.BorderSize = 0
-        Me.btnManageOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageOrders.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnManageOrders.ForeColor = System.Drawing.Color.White
-        Me.btnManageOrders.Image = Global.K7_B1.My.Resources.Resources.checklist
-        Me.btnManageOrders.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageOrders.Location = New System.Drawing.Point(0, 274)
-        Me.btnManageOrders.Name = "btnManageOrders"
-        Me.btnManageOrders.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnManageOrders.Size = New System.Drawing.Size(316, 87)
-        Me.btnManageOrders.TabIndex = 10
-        Me.btnManageOrders.Text = "    Manage Orders"
-        Me.btnManageOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnManageOrders.UseVisualStyleBackColor = True
-        '
-        'btnManageProducts
-        '
-        Me.btnManageProducts.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnManageProducts.FlatAppearance.BorderSize = 0
-        Me.btnManageProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageProducts.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnManageProducts.ForeColor = System.Drawing.Color.White
-        Me.btnManageProducts.Image = Global.K7_B1.My.Resources.Resources.delivery_box1
-        Me.btnManageProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageProducts.Location = New System.Drawing.Point(0, 187)
-        Me.btnManageProducts.Name = "btnManageProducts"
-        Me.btnManageProducts.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnManageProducts.Size = New System.Drawing.Size(316, 87)
-        Me.btnManageProducts.TabIndex = 5
-        Me.btnManageProducts.Text = "    Manage Products"
-        Me.btnManageProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnManageProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnManageProducts.UseVisualStyleBackColor = True
-        '
-        'btnDashboard
-        '
-        Me.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnDashboard.FlatAppearance.BorderSize = 0
-        Me.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnDashboard.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDashboard.ForeColor = System.Drawing.Color.White
-        Me.btnDashboard.Image = Global.K7_B1.My.Resources.Resources.dashboard
-        Me.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnDashboard.Location = New System.Drawing.Point(0, 100)
-        Me.btnDashboard.Name = "btnDashboard"
-        Me.btnDashboard.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnDashboard.Size = New System.Drawing.Size(316, 87)
-        Me.btnDashboard.TabIndex = 1
-        Me.btnDashboard.Text = "    Dashboard"
-        Me.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnDashboard.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -160,11 +63,11 @@ Partial Class admin
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Visby Round CF Heavy", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(71, 37)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(169, 29)
+        Me.Label1.Size = New System.Drawing.Size(162, 28)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Hello Admin !"
         '
@@ -196,6 +99,82 @@ Partial Class admin
         Me.panelOutput.Size = New System.Drawing.Size(1031, 638)
         Me.panelOutput.TabIndex = 0
         '
+        'btnLogout
+        '
+        Me.btnLogout.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnLogout.FlatAppearance.BorderSize = 0
+        Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLogout.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogout.ForeColor = System.Drawing.Color.White
+        Me.btnLogout.Image = Global.K7_B1.My.Resources.Resources.switch1
+        Me.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnLogout.Location = New System.Drawing.Point(0, 361)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnLogout.Size = New System.Drawing.Size(316, 87)
+        Me.btnLogout.TabIndex = 12
+        Me.btnLogout.Text = "    Logout"
+        Me.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnLogout.UseVisualStyleBackColor = True
+        '
+        'btnInvoice
+        '
+        Me.btnInvoice.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnInvoice.FlatAppearance.BorderSize = 0
+        Me.btnInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnInvoice.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInvoice.ForeColor = System.Drawing.Color.White
+        Me.btnInvoice.Image = Global.K7_B1.My.Resources.Resources.slip
+        Me.btnInvoice.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnInvoice.Location = New System.Drawing.Point(0, 274)
+        Me.btnInvoice.Name = "btnInvoice"
+        Me.btnInvoice.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnInvoice.Size = New System.Drawing.Size(316, 87)
+        Me.btnInvoice.TabIndex = 11
+        Me.btnInvoice.Text = "    Invoice"
+        Me.btnInvoice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnInvoice.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnInvoice.UseVisualStyleBackColor = True
+        '
+        'btnManageOrders
+        '
+        Me.btnManageOrders.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnManageOrders.FlatAppearance.BorderSize = 0
+        Me.btnManageOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageOrders.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnManageOrders.ForeColor = System.Drawing.Color.White
+        Me.btnManageOrders.Image = Global.K7_B1.My.Resources.Resources.checklist
+        Me.btnManageOrders.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnManageOrders.Location = New System.Drawing.Point(0, 187)
+        Me.btnManageOrders.Name = "btnManageOrders"
+        Me.btnManageOrders.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnManageOrders.Size = New System.Drawing.Size(316, 87)
+        Me.btnManageOrders.TabIndex = 10
+        Me.btnManageOrders.Text = "    Manage Products"
+        Me.btnManageOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnManageOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnManageOrders.UseVisualStyleBackColor = True
+        '
+        'btnDashboard
+        '
+        Me.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnDashboard.FlatAppearance.BorderSize = 0
+        Me.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDashboard.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDashboard.ForeColor = System.Drawing.Color.White
+        Me.btnDashboard.Image = Global.K7_B1.My.Resources.Resources.dashboard
+        Me.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnDashboard.Location = New System.Drawing.Point(0, 100)
+        Me.btnDashboard.Name = "btnDashboard"
+        Me.btnDashboard.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnDashboard.Size = New System.Drawing.Size(316, 87)
+        Me.btnDashboard.TabIndex = 1
+        Me.btnDashboard.Text = "    Dashboard"
+        Me.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnDashboard.UseVisualStyleBackColor = True
+        '
         'admin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -224,5 +203,4 @@ Partial Class admin
     Friend WithEvents btnLogout As Button
     Friend WithEvents btnInvoice As Button
     Friend WithEvents btnManageOrders As Button
-    Friend WithEvents btnManageProducts As Button
 End Class

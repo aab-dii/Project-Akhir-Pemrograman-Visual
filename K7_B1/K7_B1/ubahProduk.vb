@@ -133,39 +133,58 @@ Public Class ubahProduk
         admin.childform(manageProduk)
     End Sub
 
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+    Private Sub btnPilihGambar_Click_1(sender As Object, e As EventArgs) Handles btnPilihGambar.Click
+        Dim openFileDialog As New OpenFileDialog()
+        openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp"
 
+        If openFileDialog.ShowDialog() = DialogResult.OK Then
+            PictureBox1.Image = Image.FromFile(openFileDialog.FileName)
+            gambarPath = openFileDialog.FileName ' Menyimpan path gambar yang baru dipilih
+        End If
     End Sub
 
     Private Sub btnSimpan_Click_1(sender As Object, e As EventArgs) Handles btnSimpan.Click
+        If txtNama.Text = "" Or txtHarga.Text = "" Then
+            MsgBox("Data belum lengkap!")
+        Else
+            Try
+                koneksi()
+                Dim jenisProduk As String
+                If sepatu.Checked Then
+                    jenisProduk = sepatu.Text
+                Else
+                    jenisProduk = baju.Text
+                End If
 
+                ' Salin gambar ke folder lokal proyek jika ada gambar baru dipilih
+                If Not String.IsNullOrEmpty(gambarPath) AndAlso Not gambarPath.StartsWith(Application.StartupPath) Then
+                    CopyImageToFolder(gambarPath, "GambarProduk")
+                End If
+
+                Dim query As String = "UPDATE tbproduk SET nama = @nama, jenis = @jenis, harga = @harga, merek = @merek, madeIn = @madeIn, kualitas = @kualitas, stok = @stok, gambar = @gambar WHERE idProduk = @idProduk"
+                Dim cmd As New MySqlCommand(query, CONN)
+                cmd.Parameters.AddWithValue("@idProduk", idProduk)
+                cmd.Parameters.AddWithValue("@nama", txtNama.Text)
+                cmd.Parameters.AddWithValue("@jenis", jenisProduk)
+                cmd.Parameters.AddWithValue("@harga", txtHarga.Text)
+                cmd.Parameters.AddWithValue("@merek", txtMerek.Text)
+                cmd.Parameters.AddWithValue("@madeIn", txtMadeIn.Text)
+                cmd.Parameters.AddWithValue("@kualitas", cbKualitas.Text)
+                cmd.Parameters.AddWithValue("@stok", txtStok.Text)
+                cmd.Parameters.AddWithValue("@gambar", gambarPath)
+
+                cmd.ExecuteNonQuery()
+
+                MessageBox.Show("Data berhasil diubah.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                admin.childform(manageProduk)
+                manageProduk.LoadProdukToFlowLayoutPanel()
+            Catch ex As Exception
+                MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Finally
+                CONN.Close()
+            End Try
+        End If
     End Sub
 
-    Private Sub label1_Click(sender As Object, e As EventArgs) Handles label1.Click
 
-    End Sub
-
-    Private Sub label2_Click(sender As Object, e As EventArgs) Handles label2.Click
-
-    End Sub
-
-    Private Sub label3_Click(sender As Object, e As EventArgs) Handles label3.Click
-
-    End Sub
-
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-
-    End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
-    End Sub
-
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
-    End Sub
 End Class

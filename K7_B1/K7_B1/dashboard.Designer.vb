@@ -51,7 +51,7 @@ Partial Class dashboard
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(787, 472)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(47, 32)
+        Me.Label2.Size = New System.Drawing.Size(50, 34)
         Me.Label2.TabIndex = 28
         Me.Label2.Text = "20"
         '
@@ -62,7 +62,7 @@ Partial Class dashboard
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(787, 313)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(47, 32)
+        Me.Label7.Size = New System.Drawing.Size(50, 34)
         Me.Label7.TabIndex = 27
         Me.Label7.Text = "20"
         '
@@ -73,7 +73,7 @@ Partial Class dashboard
         Me.Label11.ForeColor = System.Drawing.Color.White
         Me.Label11.Location = New System.Drawing.Point(361, 472)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(181, 32)
+        Me.Label11.Size = New System.Drawing.Size(190, 34)
         Me.Label11.TabIndex = 26
         Me.Label11.Text = "Rp.1.250.000"
         '
@@ -129,7 +129,7 @@ Partial Class dashboard
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(392, 313)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(47, 32)
+        Me.Label4.Size = New System.Drawing.Size(50, 34)
         Me.Label4.TabIndex = 19
         Me.Label4.Text = "20"
         '

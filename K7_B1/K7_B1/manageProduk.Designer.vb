@@ -71,13 +71,14 @@ Partial Class manageProduk
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(78, Byte), Integer))
-        Me.BackgroundImage = Global.K7_B1.My.Resources.Resources.hexagon
+        Me.BackgroundImage = Global.K7_B1.My.Resources.Resources.hexafix4
         Me.ClientSize = New System.Drawing.Size(1073, 570)
         Me.Controls.Add(Me.btnBatal)
         Me.Controls.Add(Me.btnTambah)
         Me.Controls.Add(Me.panelProduk)
         Me.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.DoubleBuffered = True
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "manageProduk"
         Me.Text = "manageProduk"
         Me.ResumeLayout(False)

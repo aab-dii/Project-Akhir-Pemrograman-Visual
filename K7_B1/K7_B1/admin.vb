@@ -89,4 +89,7 @@
         childform(dashboard)
     End Sub
 
+    Private Sub btnManageProducts_Click_1(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

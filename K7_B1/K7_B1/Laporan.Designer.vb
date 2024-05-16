@@ -79,6 +79,7 @@ Partial Class Laporan
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(78, Byte), Integer))
+        Me.BackgroundImage = Global.K7_B1.My.Resources.Resources.hexafix3
         Me.ClientSize = New System.Drawing.Size(1027, 514)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "Laporan"

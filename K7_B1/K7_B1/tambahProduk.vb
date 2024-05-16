@@ -95,6 +95,7 @@ Public Class tambahProduk
 
             MsgBox("Simpan Data Berhasil!")
             manageProduk.LoadProdukToFlowLayoutPanel()
+            admin.childform(manageProduk)
 
             ' Kosongkan textbox setelah penyimpanan
             txtNama.Clear()
@@ -113,69 +114,5 @@ Public Class tambahProduk
 
     Private Sub btnBatal_Click(sender As Object, e As EventArgs) Handles btnBatal.Click
         admin.childform(manageProduk)
-    End Sub
-
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
-    End Sub
-
-    Private Sub txtHarga_TextChanged(sender As Object, e As EventArgs) Handles txtHarga.TextChanged
-
-    End Sub
-
-    Private Sub label2_Click(sender As Object, e As EventArgs) Handles label2.Click
-
-    End Sub
-
-    Private Sub label3_Click(sender As Object, e As EventArgs) Handles label3.Click
-
-    End Sub
-
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-
-    End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
-    End Sub
-
-    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
-
-    End Sub
-
-    Private Sub txtNama_TextChanged(sender As Object, e As EventArgs) Handles txtNama.TextChanged
-
-    End Sub
-
-    Private Sub baju_CheckedChanged(sender As Object, e As EventArgs) Handles baju.CheckedChanged
-
-    End Sub
-
-    Private Sub sepatu_CheckedChanged(sender As Object, e As EventArgs) Handles sepatu.CheckedChanged
-
-    End Sub
-
-    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
-
-    End Sub
-
-    Private Sub txtMerek_TextChanged(sender As Object, e As EventArgs) Handles txtMerek.TextChanged
-
-    End Sub
-
-    Private Sub txtMadeIn_TextChanged(sender As Object, e As EventArgs) Handles txtMadeIn.TextChanged
-
-    End Sub
-
-    Private Sub cbKualitas_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbKualitas.SelectedIndexChanged
-
-    End Sub
-
-    Private Sub txtStok_TextChanged(sender As Object, e As EventArgs) Handles txtStok.TextChanged
-
     End Sub
 End Class

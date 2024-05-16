@@ -22,13 +22,17 @@ Partial Class ubahProduk
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.cbKualitas = New System.Windows.Forms.ComboBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnBatal = New System.Windows.Forms.Button()
+        Me.btnSimpan = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.cbKualitas = New System.Windows.Forms.ComboBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.txtNama = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.baju = New System.Windows.Forms.RadioButton()
         Me.sepatu = New System.Windows.Forms.RadioButton()
+        Me.btnPilihGambar = New System.Windows.Forms.Button()
         Me.label1 = New System.Windows.Forms.Label()
         Me.txtStok = New System.Windows.Forms.TextBox()
         Me.label2 = New System.Windows.Forms.Label()
@@ -40,30 +44,16 @@ Partial Class ubahProduk
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.btnBatal = New System.Windows.Forms.Button()
-        Me.btnSimpan = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnPilihGambar = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'cbKualitas
-        '
-        Me.cbKualitas.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbKualitas.FormattingEnabled = True
-        Me.cbKualitas.Items.AddRange(New Object() {"Bagus", "Jelek"})
-        Me.cbKualitas.Location = New System.Drawing.Point(138, 326)
-        Me.cbKualitas.Name = "cbKualitas"
-        Me.cbKualitas.Size = New System.Drawing.Size(261, 28)
-        Me.cbKualitas.TabIndex = 52
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(78, Byte), Integer))
-        Me.Panel1.BackgroundImage = Global.K7_B1.My.Resources.Resources.hexagon
+        Me.Panel1.BackgroundImage = Global.K7_B1.My.Resources.Resources.hexafix6
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Panel1.Controls.Add(Me.btnBatal)
         Me.Panel1.Controls.Add(Me.btnSimpan)
@@ -72,6 +62,34 @@ Partial Class ubahProduk
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1112, 647)
         Me.Panel1.TabIndex = 58
+        '
+        'btnBatal
+        '
+        Me.btnBatal.BackColor = System.Drawing.Color.Red
+        Me.btnBatal.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBatal.ForeColor = System.Drawing.Color.White
+        Me.btnBatal.Image = Global.K7_B1.My.Resources.Resources.Cancel
+        Me.btnBatal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnBatal.Location = New System.Drawing.Point(118, 512)
+        Me.btnBatal.Name = "btnBatal"
+        Me.btnBatal.Size = New System.Drawing.Size(378, 45)
+        Me.btnBatal.TabIndex = 54
+        Me.btnBatal.Text = "Batal"
+        Me.btnBatal.UseVisualStyleBackColor = False
+        '
+        'btnSimpan
+        '
+        Me.btnSimpan.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnSimpan.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSimpan.ForeColor = System.Drawing.Color.White
+        Me.btnSimpan.Image = Global.K7_B1.My.Resources.Resources.checklist1
+        Me.btnSimpan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnSimpan.Location = New System.Drawing.Point(550, 512)
+        Me.btnSimpan.Name = "btnSimpan"
+        Me.btnSimpan.Size = New System.Drawing.Size(378, 45)
+        Me.btnSimpan.TabIndex = 53
+        Me.btnSimpan.Text = "Simpan"
+        Me.btnSimpan.UseVisualStyleBackColor = False
         '
         'Panel2
         '
@@ -96,6 +114,25 @@ Partial Class ubahProduk
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(798, 422)
         Me.Panel2.TabIndex = 57
+        '
+        'cbKualitas
+        '
+        Me.cbKualitas.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbKualitas.FormattingEnabled = True
+        Me.cbKualitas.Items.AddRange(New Object() {"Bagus", "Jelek"})
+        Me.cbKualitas.Location = New System.Drawing.Point(138, 326)
+        Me.cbKualitas.Name = "cbKualitas"
+        Me.cbKualitas.Size = New System.Drawing.Size(261, 28)
+        Me.cbKualitas.TabIndex = 52
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox1.Location = New System.Drawing.Point(452, 70)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(320, 243)
+        Me.PictureBox1.TabIndex = 55
+        Me.PictureBox1.TabStop = False
         '
         'txtNama
         '
@@ -141,6 +178,20 @@ Partial Class ubahProduk
         Me.sepatu.TabStop = True
         Me.sepatu.Text = "sepatu"
         Me.sepatu.UseVisualStyleBackColor = True
+        '
+        'btnPilihGambar
+        '
+        Me.btnPilihGambar.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnPilihGambar.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPilihGambar.ForeColor = System.Drawing.Color.White
+        Me.btnPilihGambar.Image = Global.K7_B1.My.Resources.Resources.gallery
+        Me.btnPilihGambar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnPilihGambar.Location = New System.Drawing.Point(452, 328)
+        Me.btnPilihGambar.Name = "btnPilihGambar"
+        Me.btnPilihGambar.Size = New System.Drawing.Size(288, 67)
+        Me.btnPilihGambar.TabIndex = 56
+        Me.btnPilihGambar.Text = "Browse Image"
+        Me.btnPilihGambar.UseVisualStyleBackColor = False
         '
         'label1
         '
@@ -258,57 +309,6 @@ Partial Class ubahProduk
         Me.Label5.TabIndex = 45
         Me.Label5.Text = "Made In :"
         '
-        'btnBatal
-        '
-        Me.btnBatal.BackColor = System.Drawing.Color.Red
-        Me.btnBatal.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBatal.ForeColor = System.Drawing.Color.White
-        Me.btnBatal.Image = Global.K7_B1.My.Resources.Resources.Cancel
-        Me.btnBatal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnBatal.Location = New System.Drawing.Point(118, 512)
-        Me.btnBatal.Name = "btnBatal"
-        Me.btnBatal.Size = New System.Drawing.Size(378, 45)
-        Me.btnBatal.TabIndex = 54
-        Me.btnBatal.Text = "Batal"
-        Me.btnBatal.UseVisualStyleBackColor = False
-        '
-        'btnSimpan
-        '
-        Me.btnSimpan.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnSimpan.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSimpan.ForeColor = System.Drawing.Color.White
-        Me.btnSimpan.Image = Global.K7_B1.My.Resources.Resources.checklist1
-        Me.btnSimpan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnSimpan.Location = New System.Drawing.Point(550, 512)
-        Me.btnSimpan.Name = "btnSimpan"
-        Me.btnSimpan.Size = New System.Drawing.Size(378, 45)
-        Me.btnSimpan.TabIndex = 53
-        Me.btnSimpan.Text = "Simpan"
-        Me.btnSimpan.UseVisualStyleBackColor = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(452, 70)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(320, 243)
-        Me.PictureBox1.TabIndex = 55
-        Me.PictureBox1.TabStop = False
-        '
-        'btnPilihGambar
-        '
-        Me.btnPilihGambar.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnPilihGambar.Font = New System.Drawing.Font("Visby Round CF Extra Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPilihGambar.ForeColor = System.Drawing.Color.White
-        Me.btnPilihGambar.Image = Global.K7_B1.My.Resources.Resources.gallery
-        Me.btnPilihGambar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnPilihGambar.Location = New System.Drawing.Point(452, 328)
-        Me.btnPilihGambar.Name = "btnPilihGambar"
-        Me.btnPilihGambar.Size = New System.Drawing.Size(288, 67)
-        Me.btnPilihGambar.TabIndex = 56
-        Me.btnPilihGambar.Text = "Browse Image"
-        Me.btnPilihGambar.UseVisualStyleBackColor = False
-        '
         'ubahProduk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -320,9 +320,9 @@ Partial Class ubahProduk
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

@@ -25,39 +25,48 @@ Public Class manageProduk
             ' Loop melalui setiap baris data dan tambahkan ke dalam FlowLayoutPanel
             While reader.Read()
                 Dim panelProdukItem As New Panel()
-                panelProdukItem.BackColor = Color.White
+                panelProdukItem.BackColor = Color.AliceBlue ' Warna menarik untuk kotak kontainer
                 panelProdukItem.BorderStyle = BorderStyle.FixedSingle
                 panelProdukItem.Size = New Size(500, 150)
                 panelProdukItem.Margin = New Padding(10)
 
+                ' Atur font untuk label dan tombol
+                Dim font As New Font("Visby Round CF Bold", 10.2, FontStyle.Bold)
+
                 ' Tambahkan label untuk menampilkan informasi produk
                 Dim labelNama As New Label()
                 labelNama.Text = reader("nama").ToString()
+                labelNama.Font = font
                 labelNama.AutoSize = True
                 labelNama.Location = New Point(150, 10)
 
                 Dim labelHarga As New Label()
                 labelHarga.Text = "Harga: " & reader("harga").ToString()
+                labelHarga.Font = font
                 labelHarga.AutoSize = True
                 labelHarga.Location = New Point(150, 30)
 
                 Dim labelStok As New Label()
                 labelStok.Text = "Stok: " & reader("stok").ToString()
+                labelStok.Font = font
                 labelStok.AutoSize = True
                 labelStok.Location = New Point(150, 50)
 
                 Dim labelMerk As New Label()
                 labelMerk.Text = "Merek: " & reader("merek").ToString()
+                labelMerk.Font = font
                 labelMerk.AutoSize = True
                 labelMerk.Location = New Point(150, 70)
 
                 Dim labelJenis As New Label()
                 labelJenis.Text = "Jenis: " & reader("jenis").ToString()
+                labelJenis.Font = font
                 labelJenis.AutoSize = True
                 labelJenis.Location = New Point(150, 90)
 
                 ' Tambahkan PictureBox untuk menampilkan gambar
                 Dim pictureBox As New PictureBox()
+                pictureBox.BorderStyle = BorderStyle.FixedSingle ' Tambahkan border pada gambar
                 If Not IsDBNull(reader("gambar")) AndAlso reader("gambar").ToString() <> "" Then
                     ' Dapatkan path relatif dari database
                     Dim gambarPathRelatif As String = reader("gambar").ToString()
@@ -77,17 +86,23 @@ Public Class manageProduk
                 ' Tambahkan tombol hapus
                 Dim produkDel As New Button()
                 produkDel.Text = "Hapus"
+                produkDel.Font = font ' Set font yang sama
                 produkDel.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
                 produkDel.Size = New Size(75, 30)
                 produkDel.Location = New Point(400, 10)
+                produkDel.BackColor = Color.Red ' Ubah warna tombol hapus menjadi merah
+                produkDel.ForeColor = Color.White ' Ubah warna teks tombol hapus menjadi putih
                 AddHandler produkDel.Click, AddressOf ProdukDel_Click
 
                 ' Tambahkan tombol ubah
                 Dim produkUbah As New Button()
                 produkUbah.Text = "Ubah"
+                produkUbah.Font = font ' Set font yang sama
                 produkUbah.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
                 produkUbah.Size = New Size(75, 30)
                 produkUbah.Location = New Point(400, 50)
+                produkUbah.BackColor = Color.Blue ' Ubah warna tombol ubah menjadi biru
+                produkUbah.ForeColor = Color.White ' Ubah warna teks tombol ubah menjadi putih
                 AddHandler produkUbah.Click, AddressOf ProdukUbah_Click
 
                 ' Tambahkan kontrol ke dalam panel produk
@@ -114,6 +129,9 @@ Public Class manageProduk
             End If
         End Try
     End Sub
+
+
+
 
     Private Sub ProdukDel_Click(sender As Object, e As EventArgs)
         Dim btn As Button = CType(sender, Button)
@@ -168,5 +186,9 @@ Public Class manageProduk
 
     Private Sub panelProduk_Paint(sender As Object, e As PaintEventArgs) Handles panelProduk.Paint
 
+    End Sub
+
+    Private Sub btnBatal_Click(sender As Object, e As EventArgs) Handles btnBatal.Click
+        admin.childform(dashboard)
     End Sub
 End Class

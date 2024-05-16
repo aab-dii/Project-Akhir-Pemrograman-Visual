@@ -25,7 +25,6 @@ Partial Class LoginPage
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -33,6 +32,7 @@ Partial Class LoginPage
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.txtUsername = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -81,15 +81,6 @@ Partial Class LoginPage
         Me.Label4.TabIndex = 16
         Me.Label4.Text = "Tidak Punya Akun? Silahkan Registrasi disini ->"
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.balik
-        Me.PictureBox2.Location = New System.Drawing.Point(16, 26)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(101, 80)
-        Me.PictureBox2.TabIndex = 18
-        Me.PictureBox2.TabStop = False
-        '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
@@ -105,11 +96,11 @@ Partial Class LoginPage
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Visby Round CF Heavy", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(248, 33)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(143, 25)
+        Me.Label3.Size = New System.Drawing.Size(128, 24)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "LOGIN PAGE"
         '
@@ -161,6 +152,15 @@ Partial Class LoginPage
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(325, 22)
         Me.txtUsername.TabIndex = 5
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.balik
+        Me.PictureBox2.Location = New System.Drawing.Point(16, 26)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(101, 80)
+        Me.PictureBox2.TabIndex = 18
+        Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
