@@ -112,22 +112,28 @@
     <Compile Include="admin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Cart.Designer.vb">
+      <DependentUpon>Cart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="customer.Designer.vb">
       <DependentUpon>customer.vb</DependentUpon>
     </Compile>
     <Compile Include="customer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="dashboard.Designer.vb">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="manageProduk.Designer.vb">
       <DependentUpon>manageProduk.vb</DependentUpon>
     </Compile>
     <Compile Include="manageProduk.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MenuUser.Designer.vb">
-      <DependentUpon>MenuUser.vb</DependentUpon>
-    </Compile>
-    <Compile Include="MenuUser.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
@@ -173,14 +179,17 @@
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cart.resx">
+      <DependentUpon>Cart.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="customer.resx">
       <DependentUpon>customer.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="manageProduk.resx">
       <DependentUpon>manageProduk.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MenuUser.resx">
-      <DependentUpon>MenuUser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -196,6 +205,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

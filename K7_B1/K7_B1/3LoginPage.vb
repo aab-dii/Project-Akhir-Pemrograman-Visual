@@ -2,8 +2,10 @@
 
 Public Class LoginPage
     Public Shared idUser As Integer ' Variabel public
+    Public Shared user As String
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim username As String = txtUsername.Text
+        user = txtUsername.Text
         Dim password As String = txtPassword.Text
         If String.IsNullOrWhiteSpace(username) OrElse String.IsNullOrWhiteSpace(password) Then
             MessageBox.Show("Silahkan isi Username Dan Password")
@@ -26,7 +28,7 @@ Public Class LoginPage
                 Me.Hide()
             Else
                 ' Masuk ke menu user
-                MenuUser.Show()
+                customer.Show()
                 Me.Hide()
             End If
         Else
