@@ -22,15 +22,16 @@ Partial Class Cart
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PanelProduk = New System.Windows.Forms.Panel()
+        Me.PanelProduk = New System.Windows.Forms.FlowLayoutPanel()
         Me.SuspendLayout()
         '
         'PanelProduk
         '
-        Me.PanelProduk.Location = New System.Drawing.Point(16, 20)
+        Me.PanelProduk.Location = New System.Drawing.Point(25, 28)
         Me.PanelProduk.Name = "PanelProduk"
-        Me.PanelProduk.Size = New System.Drawing.Size(1077, 666)
+        Me.PanelProduk.Size = New System.Drawing.Size(1065, 665)
         Me.PanelProduk.TabIndex = 0
+        Me.PanelProduk.WrapContents = False
         '
         'Cart
         '
@@ -43,5 +44,5 @@ Partial Class Cart
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents PanelProduk As System.Windows.Forms.Panel
+    Friend WithEvents PanelProduk As System.Windows.Forms.FlowLayoutPanel
 End Class

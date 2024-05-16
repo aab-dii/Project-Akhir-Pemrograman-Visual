@@ -12,9 +12,6 @@ Public Class Cart
 
         Try
             ' Buka koneksi jika belum terbuka
-            If CONN.State = ConnectionState.Closed Then
-                CONN.Open()
-            End If
 
             ' Lakukan koneksi ke database dan eksekusi query untuk mengambil data produk
             Dim query As String = "SELECT * FROM tbproduk"
@@ -26,19 +23,19 @@ Public Class Cart
                 Dim panelProdukItem As New Panel()
                 panelProdukItem.BackColor = Color.White
                 panelProdukItem.BorderStyle = BorderStyle.FixedSingle
-                panelProdukItem.Size = New Size(300, 150)
+                panelProdukItem.Size = New Size(150, 200)
                 panelProdukItem.Margin = New Padding(10)
 
                 ' Tambahkan label untuk menampilkan informasi produk
                 Dim labelNama As New Label()
                 labelNama.Text = reader("nama").ToString()
                 labelNama.AutoSize = True
-                labelNama.Location = New Point(10, 10)
+                labelNama.Location = New Point(10, 250)
 
                 Dim labelHarga As New Label()
                 labelHarga.Text = "Harga: " & reader("harga").ToString()
                 labelHarga.AutoSize = True
-                labelHarga.Location = New Point(10, 30)
+                labelHarga.Location = New Point(10, 200)
 
                 ' Tambahkan PictureBox untuk menampilkan gambar
                 Dim pictureBox As New PictureBox()
@@ -56,7 +53,7 @@ Public Class Cart
                 End If
                 pictureBox.Size = New Size(100, 100)
                 pictureBox.SizeMode = PictureBoxSizeMode.Zoom
-                pictureBox.Location = New Point(150, 10)
+                pictureBox.Location = New Point(10, 10)
 
                 ' Tambahkan tombol hapus
                 Dim produkDel As New Button()
@@ -90,11 +87,20 @@ Public Class Cart
             MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
             ' Tutup koneksi setelah selesai
-            If CONN.State = ConnectionState.Open Then
-                CONN.Close()
-            End If
         End Try
     End Sub
 
+    Private Sub ProdukDel_Click(sender As Object, e As EventArgs)
+        Throw New NotImplementedException
+    End Sub
 
+    Private Sub ProdukUbah_Click(sender As Object, e As EventArgs)
+        Throw New NotImplementedException
+    End Sub
+
+
+    Private Sub Cart_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        koneksi()
+        Tampil()
+    End Sub
 End Class
