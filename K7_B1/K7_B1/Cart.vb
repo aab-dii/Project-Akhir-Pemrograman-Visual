@@ -23,19 +23,19 @@ Public Class Cart
                 Dim panelProdukItem As New Panel()
                 panelProdukItem.BackColor = Color.White
                 panelProdukItem.BorderStyle = BorderStyle.FixedSingle
-                panelProdukItem.Size = New Size(150, 200)
+                panelProdukItem.Size = New Size(400, 150)
                 panelProdukItem.Margin = New Padding(10)
 
                 ' Tambahkan label untuk menampilkan informasi produk
                 Dim labelNama As New Label()
-                labelNama.Text = reader("nama").ToString()
+                labelNama.Text = "Nama: " & reader("nama").ToString()
                 labelNama.AutoSize = True
-                labelNama.Location = New Point(10, 250)
+                labelNama.Location = New Point(150, 10)
 
                 Dim labelHarga As New Label()
                 labelHarga.Text = "Harga: " & reader("harga").ToString()
                 labelHarga.AutoSize = True
-                labelHarga.Location = New Point(10, 200)
+                labelHarga.Location = New Point(150, 30)
 
                 ' Tambahkan PictureBox untuk menampilkan gambar
                 Dim pictureBox As New PictureBox()
@@ -56,24 +56,24 @@ Public Class Cart
                 pictureBox.Location = New Point(10, 10)
 
                 ' Tambahkan tombol hapus
-                Dim produkDel As New Button()
-                produkDel.Text = "Hapus"
-                produkDel.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
-                produkDel.Size = New Size(75, 30)
-                produkDel.Location = New Point(200, 10)
-                AddHandler produkDel.Click, AddressOf ProdukDel_Click
+                Dim produkBeli As New Button()
+                produkBeli.Text = "Beli"
+                produkBeli.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
+                produkBeli.Size = New Size(75, 30)
+                produkBeli.Location = New Point(300, 10)
+                AddHandler produkBeli.Click, AddressOf ProdukBeli_Click
 
                 ' Tambahkan tombol ubah
-                Dim produkUbah As New Button()
-                produkUbah.Text = "Ubah"
-                produkUbah.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
-                produkUbah.Size = New Size(75, 30)
-                produkUbah.Location = New Point(200, 50)
-                AddHandler produkUbah.Click, AddressOf ProdukUbah_Click
+                Dim produkKeranjang As New Button()
+                produkKeranjang.Text = "Keranjang"
+                produkKeranjang.Tag = reader("idProduk").ToString() ' Simpan ID produk di Tag untuk referensi nanti
+                produkKeranjang.Size = New Size(75, 30)
+                produkKeranjang.Location = New Point(300, 50)
+                AddHandler produkKeranjang.Click, AddressOf ProdukKeranjang_Click
 
                 ' Tambahkan kontrol ke dalam panel produk
-                panelProdukItem.Controls.Add(produkDel)
-                panelProdukItem.Controls.Add(produkUbah)
+                panelProdukItem.Controls.Add(produkBeli)
+                panelProdukItem.Controls.Add(produkKeranjang)
                 panelProdukItem.Controls.Add(pictureBox)
                 panelProdukItem.Controls.Add(labelHarga)
                 panelProdukItem.Controls.Add(labelNama)
@@ -90,11 +90,11 @@ Public Class Cart
         End Try
     End Sub
 
-    Private Sub ProdukDel_Click(sender As Object, e As EventArgs)
+    Private Sub ProdukBeli_Click(sender As Object, e As EventArgs)
         Throw New NotImplementedException
     End Sub
 
-    Private Sub ProdukUbah_Click(sender As Object, e As EventArgs)
+    Private Sub ProdukKeranjang_Click(sender As Object, e As EventArgs)
         Throw New NotImplementedException
     End Sub
 

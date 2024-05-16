@@ -29,7 +29,7 @@ Partial Class Cart
         '
         Me.PanelProduk.Location = New System.Drawing.Point(25, 28)
         Me.PanelProduk.Name = "PanelProduk"
-        Me.PanelProduk.Size = New System.Drawing.Size(1065, 665)
+        Me.PanelProduk.Size = New System.Drawing.Size(737, 665)
         Me.PanelProduk.TabIndex = 0
         Me.PanelProduk.WrapContents = False
         '
@@ -37,7 +37,7 @@ Partial Class Cart
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1115, 705)
+        Me.ClientSize = New System.Drawing.Size(799, 705)
         Me.Controls.Add(Me.PanelProduk)
         Me.Name = "Cart"
         Me.Text = "Cart"
