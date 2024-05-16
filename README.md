@@ -1,4 +1,4 @@
-# Project-Akhir-Pemrograman-Visual
+# Project Akhir Pemrograman Visual
 ## Kelompok 7
 - Abdullah Azam (2209106056)
 - Ahmad Nur Fauzan (2209106057)
