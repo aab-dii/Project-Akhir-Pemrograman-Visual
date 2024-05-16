@@ -27,6 +27,6 @@
 
     Private Sub btnProducts_Click(sender As Object, e As EventArgs) Handles btnProducts.Click
         lblHeaderMenu.Text = "Products"
-        'childform()
+        childform(Products)
     End Sub
 End Class

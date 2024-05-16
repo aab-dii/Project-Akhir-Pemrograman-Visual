@@ -111,3 +111,4 @@ D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrog
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.Cache
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.dashboard.resources
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Cart.resources
+D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\cobalagi\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Products.resources
