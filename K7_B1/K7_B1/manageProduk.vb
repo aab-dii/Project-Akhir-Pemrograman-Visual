@@ -2,7 +2,7 @@
 Imports System.IO
 
 Public Class manageProduk
-    Private currentProduk As String = Nothing
+
     Private countProduct As Integer = 0
 
     Public Sub LoadProdukToFlowLayoutPanel()
@@ -146,4 +146,5 @@ Public Class manageProduk
     Private Sub btnTambah_Click(sender As Object, e As EventArgs) Handles btnTambah.Click
         tambahProduk.Show()
     End Sub
+
 End Class
