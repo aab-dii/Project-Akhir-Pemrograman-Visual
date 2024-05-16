@@ -23,15 +23,15 @@ Partial Class admin
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnLogout = New System.Windows.Forms.Button()
+        Me.btnInvoice = New System.Windows.Forms.Button()
+        Me.btnManageOrders = New System.Windows.Forms.Button()
+        Me.btnDashboard = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.lblHeaderMenu = New System.Windows.Forms.Label()
         Me.panelOutput = New System.Windows.Forms.Panel()
-        Me.btnLogout = New System.Windows.Forms.Button()
-        Me.btnInvoice = New System.Windows.Forms.Button()
-        Me.btnManageOrders = New System.Windows.Forms.Button()
-        Me.btnDashboard = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -49,55 +49,6 @@ Partial Class admin
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(316, 741)
         Me.Panel1.TabIndex = 5
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Panel2.Controls.Add(Me.Label1)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(316, 100)
-        Me.Panel2.TabIndex = 0
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Visby Round CF Heavy", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(71, 37)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(162, 28)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Hello Admin !"
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(110, Byte), Integer))
-        Me.Panel3.Controls.Add(Me.lblHeaderMenu)
-        Me.Panel3.Location = New System.Drawing.Point(314, 0)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1031, 100)
-        Me.Panel3.TabIndex = 6
-        '
-        'lblHeaderMenu
-        '
-        Me.lblHeaderMenu.AutoSize = True
-        Me.lblHeaderMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
-        Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 37)
-        Me.lblHeaderMenu.Name = "lblHeaderMenu"
-        Me.lblHeaderMenu.Size = New System.Drawing.Size(0, 29)
-        Me.lblHeaderMenu.TabIndex = 8
-        Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'panelOutput
-        '
-        Me.panelOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.panelOutput.Location = New System.Drawing.Point(314, 100)
-        Me.panelOutput.Name = "panelOutput"
-        Me.panelOutput.Size = New System.Drawing.Size(1031, 638)
-        Me.panelOutput.TabIndex = 0
         '
         'btnLogout
         '
@@ -174,6 +125,55 @@ Partial Class admin
         Me.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnDashboard.UseVisualStyleBackColor = True
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(316, 100)
+        Me.Panel2.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Visby Round CF Heavy", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(71, 37)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(162, 28)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Hello Admin !"
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.Panel3.Controls.Add(Me.lblHeaderMenu)
+        Me.Panel3.Location = New System.Drawing.Point(314, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(1031, 100)
+        Me.Panel3.TabIndex = 6
+        '
+        'lblHeaderMenu
+        '
+        Me.lblHeaderMenu.AutoSize = True
+        Me.lblHeaderMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
+        Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 37)
+        Me.lblHeaderMenu.Name = "lblHeaderMenu"
+        Me.lblHeaderMenu.Size = New System.Drawing.Size(0, 29)
+        Me.lblHeaderMenu.TabIndex = 8
+        Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'panelOutput
+        '
+        Me.panelOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.panelOutput.Location = New System.Drawing.Point(314, 100)
+        Me.panelOutput.Name = "panelOutput"
+        Me.panelOutput.Size = New System.Drawing.Size(1031, 638)
+        Me.panelOutput.TabIndex = 0
         '
         'admin
         '

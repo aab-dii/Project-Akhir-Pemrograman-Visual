@@ -1,89 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\",
+  "WorkspaceRootPath": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|d:\\coding\\visual basic\\cadangan kamis pa\\project-akhir-pemrograman-visual\\k7_b1\\k7_b1\\ubahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\ubahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\ubahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\ubahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\products.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\products.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\customer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\customer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\1firstpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\1firstpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\2regispage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\2regispage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\3loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\3loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\2regispage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\2regispage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|d:\\coding\\visual basic\\ini paling fixxxxxx\\project-akhir-pemrograman-visual\\k7_b1\\k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\2regispage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\2regispage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\3loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\3loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\1firstpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\1firstpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\ubahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\ubahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\ubahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\ubahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\products.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\products.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\customer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\customer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\2regispage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\2regispage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\1firstpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\1firstpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\1firstpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\3loginpage.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\3loginpage.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\3loginpage.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -104,34 +104,110 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "tambahProduk.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb",
-              "RelativeDocumentMoniker": "K7_B1\\tambahProduk.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb [Design]",
+              "DocumentIndex": 1,
+              "Title": "manageProduk.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
+              "RelativeDocumentMoniker": "K7_B1\\manageProduk.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb [Design]",
+              "RelativeToolTip": "K7_B1\\manageProduk.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-14T09:11:34.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ubahProduk.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb",
-              "RelativeDocumentMoniker": "K7_B1\\ubahProduk.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb [Design]",
-              "RelativeToolTip": "K7_B1\\ubahProduk.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:45:32.097Z",
+              "WhenOpened": "2024-05-16T06:41:42.908Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "2RegisPage.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb",
+              "RelativeDocumentMoniker": "K7_B1\\2RegisPage.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb [Design]",
+              "RelativeToolTip": "K7_B1\\2RegisPage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T04:04:39.95Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "admin.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
+              "RelativeDocumentMoniker": "K7_B1\\admin.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb [Design]",
+              "RelativeToolTip": "K7_B1\\admin.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T06:36:51.226Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "manageProduk.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
+              "RelativeDocumentMoniker": "K7_B1\\manageProduk.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
+              "RelativeToolTip": "K7_B1\\manageProduk.vb",
+              "ViewState": "AQIAADMAAAAAAAAAAAAMwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-14T06:25:29.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dashboard.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb",
+              "RelativeDocumentMoniker": "K7_B1\\dashboard.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb",
+              "RelativeToolTip": "K7_B1\\dashboard.vb",
+              "ViewState": "AQIAAEcAAAAAAAAAAIAwwBwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T06:07:47.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "admin.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
+              "RelativeDocumentMoniker": "K7_B1\\admin.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
+              "RelativeToolTip": "K7_B1\\admin.vb",
+              "ViewState": "AQIAAFEAAAAAAAAAAAD4v2AAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-13T15:49:40.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "3LoginPage.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.vb",
+              "RelativeDocumentMoniker": "K7_B1\\3LoginPage.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.vb [Design]",
+              "RelativeToolTip": "K7_B1\\3LoginPage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T04:11:39.547Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "1FirstPage.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb",
+              "RelativeDocumentMoniker": "K7_B1\\1FirstPage.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb [Design]",
+              "RelativeToolTip": "K7_B1\\1FirstPage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T04:04:33.507Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ubahProduk.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb",
               "RelativeDocumentMoniker": "K7_B1\\ubahProduk.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb",
               "RelativeToolTip": "K7_B1\\ubahProduk.vb",
               "ViewState": "AQIAAHgAAAAAAAAAAAAMwIgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -140,21 +216,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "manageProduk.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
-              "RelativeDocumentMoniker": "K7_B1\\manageProduk.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb [Design]",
-              "RelativeToolTip": "K7_B1\\manageProduk.vb [Design]",
+              "DocumentIndex": 9,
+              "Title": "dashboard.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb",
+              "RelativeDocumentMoniker": "K7_B1\\dashboard.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb [Design]",
+              "RelativeToolTip": "K7_B1\\dashboard.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:41:42.908Z",
+              "WhenOpened": "2024-05-16T06:07:19.958Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "ubahProduk.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb",
+              "RelativeDocumentMoniker": "K7_B1\\ubahProduk.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb [Design]",
+              "RelativeToolTip": "K7_B1\\ubahProduk.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T06:45:32.097Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "tambahProduk.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb",
+              "RelativeDocumentMoniker": "K7_B1\\tambahProduk.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-14T09:11:34.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Products.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb",
               "RelativeDocumentMoniker": "K7_B1\\Products.vb",
               "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb [Design]",
               "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb [Design]",
@@ -163,9 +262,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Laporan.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Laporan.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Laporan.vb",
               "RelativeDocumentMoniker": "K7_B1\\Laporan.vb",
               "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Laporan.vb [Design]",
               "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Laporan.vb [Design]",
@@ -174,20 +273,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dashboard.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb",
-              "RelativeDocumentMoniker": "K7_B1\\dashboard.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:07:19.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "customer.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\customer.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\customer.vb",
               "RelativeDocumentMoniker": "K7_B1\\customer.vb",
               "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\customer.vb [Design]",
               "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\customer.vb [Design]",
@@ -196,55 +284,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "admin.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
-              "RelativeDocumentMoniker": "K7_B1\\admin.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:36:51.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "1FirstPage.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb",
-              "RelativeDocumentMoniker": "K7_B1\\1FirstPage.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T04:04:33.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "2RegisPage.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb",
-              "RelativeDocumentMoniker": "K7_B1\\2RegisPage.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T04:04:39.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "3LoginPage.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.vb",
-              "RelativeDocumentMoniker": "K7_B1\\3LoginPage.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T04:11:39.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "tambahProduk.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb",
               "RelativeDocumentMoniker": "K7_B1\\tambahProduk.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb",
               "RelativeToolTip": "K7_B1\\tambahProduk.vb",
               "ViewState": "AQIAAJ8AAAAAAAAAAIAwwK4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -252,46 +296,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "manageProduk.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
-              "RelativeDocumentMoniker": "K7_B1\\manageProduk.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
-              "RelativeToolTip": "K7_B1\\manageProduk.vb",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAMwJ8AAAAIAAAA",
+              "DocumentIndex": 16,
+              "Title": "2RegisPage.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb",
+              "RelativeDocumentMoniker": "K7_B1\\2RegisPage.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb",
+              "RelativeToolTip": "K7_B1\\2RegisPage.vb",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAWwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-14T06:25:29.027Z",
+              "WhenOpened": "2024-05-16T06:13:45.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "2RegisPage.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb",
-              "RelativeDocumentMoniker": "K7_B1\\2RegisPage.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb",
-              "RelativeToolTip": "K7_B1\\2RegisPage.vb",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAWwE4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:13:45.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "dashboard.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb",
-              "RelativeDocumentMoniker": "K7_B1\\dashboard.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb",
-              "RelativeToolTip": "K7_B1\\dashboard.vb",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:07:47.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Cart.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Cart.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Cart.vb",
               "RelativeDocumentMoniker": "K7_B1\\Cart.vb",
               "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Cart.vb [Design]",
               "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Cart.vb [Design]",
@@ -300,23 +320,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "admin.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
-              "RelativeDocumentMoniker": "K7_B1\\admin.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
-              "RelativeToolTip": "K7_B1\\admin.vb",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAiwFoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-13T15:49:40.38Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
               "Title": "Laporan.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Laporan.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Laporan.vb",
               "RelativeDocumentMoniker": "K7_B1\\Laporan.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Laporan.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Laporan.vb",
               "RelativeToolTip": "K7_B1\\Laporan.vb",
               "ViewState": "AQIAAAgAAAAAAAAAAAAWwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -326,33 +334,35 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "1FirstPage.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb",
               "RelativeDocumentMoniker": "K7_B1\\1FirstPage.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb",
               "RelativeToolTip": "K7_B1\\1FirstPage.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T04:04:36.386Z"
+              "WhenOpened": "2024-05-16T04:04:36.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "3LoginPage.Designer.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.Designer.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.Designer.vb",
               "RelativeDocumentMoniker": "K7_B1\\3LoginPage.Designer.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.Designer.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.Designer.vb",
               "RelativeToolTip": "K7_B1\\3LoginPage.Designer.vb",
               "ViewState": "AQIAAEIAAAAAAAAAAAAewFoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T04:09:09.085Z"
+              "WhenOpened": "2024-05-16T04:09:09.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "K7_B1",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\K7_B1.vbproj",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\K7_B1.vbproj",
               "RelativeDocumentMoniker": "K7_B1\\K7_B1.vbproj",
-              "ToolTip": "D:\\Coding\\Visual Basic\\cadangan kamis pa\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\K7_B1.vbproj",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\K7_B1.vbproj",
               "RelativeToolTip": "K7_B1\\K7_B1.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-05-13T16:26:39.968Z"

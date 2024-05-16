@@ -29,13 +29,14 @@ Public Class manageProduk
                 panelProdukItem.BorderStyle = BorderStyle.FixedSingle
                 panelProdukItem.Size = New Size(500, 150)
                 panelProdukItem.Margin = New Padding(10)
+                panelProdukItem.Location = New Point(100, 10)
 
                 ' Atur font untuk label dan tombol
                 Dim font As New Font("Visby Round CF Bold", 10.2, FontStyle.Bold)
 
                 ' Tambahkan label untuk menampilkan informasi produk
                 Dim labelNama As New Label()
-                labelNama.Text = reader("nama").ToString()
+                labelNama.Text = "Nama: " & reader("nama").ToString()
                 labelNama.Font = font
                 labelNama.AutoSize = True
                 labelNama.Location = New Point(150, 10)
@@ -63,6 +64,18 @@ Public Class manageProduk
                 labelJenis.Font = font
                 labelJenis.AutoSize = True
                 labelJenis.Location = New Point(150, 90)
+
+                Dim labelKualitas As New Label()
+                labelJenis.Text = "Kualitas: " & reader("kualitas").ToString()
+                labelJenis.Font = font
+                labelJenis.AutoSize = True
+                labelJenis.Location = New Point(150, 110)
+
+                Dim labelMadeIn As New Label()
+                labelJenis.Text = "Made In: " & reader("madeIn").ToString()
+                labelJenis.Font = font
+                labelJenis.AutoSize = True
+                labelJenis.Location = New Point(150, 130)
 
                 ' Tambahkan PictureBox untuk menampilkan gambar
                 Dim pictureBox As New PictureBox()
@@ -109,6 +122,8 @@ Public Class manageProduk
                 panelProdukItem.Controls.Add(produkDel)
                 panelProdukItem.Controls.Add(produkUbah)
                 panelProdukItem.Controls.Add(pictureBox)
+                panelProdukItem.Controls.Add(labelMadeIn)
+                panelProdukItem.Controls.Add(labelKualitas)
                 panelProdukItem.Controls.Add(labelJenis)
                 panelProdukItem.Controls.Add(labelMerk)
                 panelProdukItem.Controls.Add(labelStok)
@@ -116,6 +131,7 @@ Public Class manageProduk
                 panelProdukItem.Controls.Add(labelNama)
 
                 ' Tambahkan panel produk ke dalam FlowLayoutPanel
+
                 panelProduk.Controls.Add(panelProdukItem)
             End While
 
@@ -129,9 +145,6 @@ Public Class manageProduk
             End If
         End Try
     End Sub
-
-
-
 
     Private Sub ProdukDel_Click(sender As Object, e As EventArgs)
         Dim btn As Button = CType(sender, Button)
@@ -182,10 +195,6 @@ Public Class manageProduk
     Private Sub btnTambah_Click_1(sender As Object, e As EventArgs) Handles btnTambah.Click
         admin.lblHeaderMenu.Text = "Tambah Produk"
         admin.childform(tambahProduk)
-    End Sub
-
-    Private Sub panelProduk_Paint(sender As Object, e As PaintEventArgs) Handles panelProduk.Paint
-
     End Sub
 
     Private Sub btnBatal_Click(sender As Object, e As EventArgs) Handles btnBatal.Click

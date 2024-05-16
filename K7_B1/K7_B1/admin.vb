@@ -92,4 +92,9 @@
     Private Sub btnManageProducts_Click_1(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub btnLogout_Click_1(sender As Object, e As EventArgs) Handles btnLogout.Click
+        Me.Hide()
+        Form1.Show()
+    End Sub
 End Class
