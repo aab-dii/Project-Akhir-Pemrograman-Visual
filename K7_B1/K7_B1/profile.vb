@@ -68,4 +68,14 @@ Public Class Profile
         End Try
     End Sub
 
+    Public Sub HanyaAngka(e As KeyPressEventArgs)
+        Dim tombol As Integer = Asc(e.KeyChar)
+        If Not (((tombol >= 48) And (tombol <= 57)) Or (tombol = 8)) Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub txtTelp_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTelp.KeyPress
+        HanyaAngka(e)
+    End Sub
 End Class

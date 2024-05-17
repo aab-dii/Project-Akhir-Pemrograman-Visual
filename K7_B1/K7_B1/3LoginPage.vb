@@ -21,13 +21,16 @@ Public Class LoginPage
             Dim role As String = RD.GetString("role")
             idUser = RD.GetInt32("id_user")
             MessageBox.Show("Login Berhasil. Selamat datang, " & username & "!")
-
             If role = "admin" Then
+                txtPassword.Clear()
+                txtUsername.Clear()
                 ' Masuk ke menu admin
                 admin.Show()
                 Me.Hide()
             Else
                 ' Masuk ke menu user
+                txtUsername.Clear()
+                txtPassword.Clear()
                 customer.Show()
                 Me.Hide()
             End If

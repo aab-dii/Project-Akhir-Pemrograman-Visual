@@ -116,4 +116,19 @@ Public Class tambahProduk
     Private Sub btnBatal_Click(sender As Object, e As EventArgs) Handles btnBatal.Click
         admin.childform(manageProduk)
     End Sub
+
+    Public Sub HanyaAngka(e As KeyPressEventArgs)
+        Dim tombol As Integer = Asc(e.KeyChar)
+        If Not (((tombol >= 48) And (tombol <= 57)) Or (tombol = 8)) Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub txtHarga_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtHarga.KeyPress
+        HanyaAngka(e)
+    End Sub
+
+    Private Sub txtStok_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtStok.KeyPress
+        HanyaAngka(e)
+    End Sub
 End Class
