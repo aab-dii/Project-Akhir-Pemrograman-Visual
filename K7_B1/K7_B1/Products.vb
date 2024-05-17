@@ -138,9 +138,9 @@ Public Class Products
                 labelHarga.Location = New Point(150, 30)
 
                 Dim labelStok As New Label()
-                labelNama.Text = "Stok: " & reader("stok").ToString()
-                labelNama.AutoSize = True
-                labelNama.Location = New Point(150, 50)
+                labelStok.Text = "Stok: " & reader("stok").ToString()
+                labelStok.AutoSize = True
+                labelStok.Location = New Point(150, 50)
 
                 ' Tambahkan PictureBox untuk menampilkan gambar
                 Dim pictureBox As New PictureBox()
@@ -288,6 +288,9 @@ Public Class Products
                 CONN.Close()
             End If
         End Try
+        koneksi()
+        Tampil()
+
     End Sub
 
 
