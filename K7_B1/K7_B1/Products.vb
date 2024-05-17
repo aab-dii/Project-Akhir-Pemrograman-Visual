@@ -294,12 +294,6 @@ Public Class Products
 
             If jumlahProduk >= 0 Then
                 ' Update stok produk di tbproduk
-                Dim stokBaru As Integer = stok - jumlahProduk
-                Dim updateStok As String = "UPDATE tbproduk SET stok = @stokBaru WHERE idProduk = @idProduk"
-                Dim updateStokCmd As New MySqlCommand(updateStok, CONN)
-                updateStokCmd.Parameters.AddWithValue("@stokBaru", stokBaru)
-                updateStokCmd.Parameters.AddWithValue("@idProduk", idProduk)
-                updateStokCmd.ExecuteNonQuery()
             Else
                 MessageBox.Show("Stok tidak mencukupi untuk jumlah produk yang diminta.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 Return ' Keluar dari sub jika stok tidak cukup
