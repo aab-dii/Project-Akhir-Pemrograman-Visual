@@ -23,16 +23,16 @@ Partial Class customer
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnLogout = New System.Windows.Forms.Button()
+        Me.btnHistory = New System.Windows.Forms.Button()
+        Me.btnCart = New System.Windows.Forms.Button()
+        Me.btnProducts = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.lbnamacustomer = New System.Windows.Forms.Label()
         Me.lblCustomer = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.lblHeaderMenu = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.btnLogout = New System.Windows.Forms.Button()
-        Me.btnHistory = New System.Windows.Forms.Button()
-        Me.btnCart = New System.Windows.Forms.Button()
-        Me.btnProducts = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -50,67 +50,6 @@ Partial Class customer
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(314, 741)
         Me.Panel1.TabIndex = 7
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Panel2.Controls.Add(Me.lbnamacustomer)
-        Me.Panel2.Controls.Add(Me.lblCustomer)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(314, 100)
-        Me.Panel2.TabIndex = 0
-        '
-        'lbnamacustomer
-        '
-        Me.lbnamacustomer.AutoSize = True
-        Me.lbnamacustomer.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbnamacustomer.ForeColor = System.Drawing.Color.White
-        Me.lbnamacustomer.Location = New System.Drawing.Point(151, 26)
-        Me.lbnamacustomer.Name = "lbnamacustomer"
-        Me.lbnamacustomer.Size = New System.Drawing.Size(20, 29)
-        Me.lbnamacustomer.TabIndex = 8
-        Me.lbnamacustomer.Text = "."
-        '
-        'lblCustomer
-        '
-        Me.lblCustomer.AutoSize = True
-        Me.lblCustomer.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCustomer.ForeColor = System.Drawing.Color.White
-        Me.lblCustomer.Location = New System.Drawing.Point(71, 26)
-        Me.lblCustomer.Name = "lblCustomer"
-        Me.lblCustomer.Size = New System.Drawing.Size(75, 29)
-        Me.lblCustomer.TabIndex = 7
-        Me.lblCustomer.Text = "Hello"
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(110, Byte), Integer))
-        Me.Panel3.Controls.Add(Me.lblHeaderMenu)
-        Me.Panel3.Location = New System.Drawing.Point(311, 0)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1031, 100)
-        Me.Panel3.TabIndex = 8
-        '
-        'lblHeaderMenu
-        '
-        Me.lblHeaderMenu.AutoSize = True
-        Me.lblHeaderMenu.Font = New System.Drawing.Font("Visby Round CF Heavy", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
-        Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 26)
-        Me.lblHeaderMenu.Name = "lblHeaderMenu"
-        Me.lblHeaderMenu.Size = New System.Drawing.Size(218, 28)
-        Me.lblHeaderMenu.TabIndex = 8
-        Me.lblHeaderMenu.Text = "Dashboard Admin"
-        Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Panel4
-        '
-        Me.Panel4.Location = New System.Drawing.Point(311, 100)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1028, 641)
-        Me.Panel4.TabIndex = 9
         '
         'btnLogout
         '
@@ -187,6 +126,67 @@ Partial Class customer
         Me.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnProducts.UseVisualStyleBackColor = True
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(9, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.lbnamacustomer)
+        Me.Panel2.Controls.Add(Me.lblCustomer)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(314, 100)
+        Me.Panel2.TabIndex = 0
+        '
+        'lbnamacustomer
+        '
+        Me.lbnamacustomer.AutoSize = True
+        Me.lbnamacustomer.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbnamacustomer.ForeColor = System.Drawing.Color.White
+        Me.lbnamacustomer.Location = New System.Drawing.Point(151, 26)
+        Me.lbnamacustomer.Name = "lbnamacustomer"
+        Me.lbnamacustomer.Size = New System.Drawing.Size(20, 29)
+        Me.lbnamacustomer.TabIndex = 8
+        Me.lbnamacustomer.Text = "."
+        '
+        'lblCustomer
+        '
+        Me.lblCustomer.AutoSize = True
+        Me.lblCustomer.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCustomer.ForeColor = System.Drawing.Color.White
+        Me.lblCustomer.Location = New System.Drawing.Point(71, 26)
+        Me.lblCustomer.Name = "lblCustomer"
+        Me.lblCustomer.Size = New System.Drawing.Size(75, 29)
+        Me.lblCustomer.TabIndex = 7
+        Me.lblCustomer.Text = "Hello"
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.Panel3.Controls.Add(Me.lblHeaderMenu)
+        Me.Panel3.Location = New System.Drawing.Point(311, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(1031, 100)
+        Me.Panel3.TabIndex = 8
+        '
+        'lblHeaderMenu
+        '
+        Me.lblHeaderMenu.AutoSize = True
+        Me.lblHeaderMenu.Font = New System.Drawing.Font("Visby Round CF Heavy", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
+        Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 26)
+        Me.lblHeaderMenu.Name = "lblHeaderMenu"
+        Me.lblHeaderMenu.Size = New System.Drawing.Size(226, 29)
+        Me.lblHeaderMenu.TabIndex = 8
+        Me.lblHeaderMenu.Text = "Dashboard Admin"
+        Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Panel4
+        '
+        Me.Panel4.Location = New System.Drawing.Point(311, 100)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(1028, 641)
+        Me.Panel4.TabIndex = 9
         '
         'customer
         '

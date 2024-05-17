@@ -6,230 +6,186 @@ K7_B1
 </name>
 </assembly>
 <members>
-<member name="T:K7_B1.My.Resources.Resources">
-<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member>
 <member name="P:K7_B1.My.Resources.Resources.ResourceManager">
-<summary>
+	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.Culture">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.Culture">
+	<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources._20112744_13709">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources._20112744_13709">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.all">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.all">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.Back">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.Back">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.Back1">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.Back1">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.balik">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.balik">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.bayar">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.bayar">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.buy">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.buy">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.Cancel">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.Cancel">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.checklist">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.checklist">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.checklist1">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.checklist1">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.computer">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.computer">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.dashboard">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.dashboard">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.delivery_box">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.delivery_box">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.delivery_box1">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.delivery_box1">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.diskette">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.diskette">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.gallery">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.gallery">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix1">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix1">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix2">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix2">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix3">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix3">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix4">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix4">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix5">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix5">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix6">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix6">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix7">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix7">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexafix8">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexafix8">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.hexagon">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.hexagon">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.key">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.key">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.multiply">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.multiply">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.plus">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.plus">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.previous">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.previous">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.profits">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.profits">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.profits1">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.profits1">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.register">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.register">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.search">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.search">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.shopping_bag">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.shopping_bag">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.shopping_cart__2_">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.shopping_cart__2_">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.slip">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.slip">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.slip1">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.slip1">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.status">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.status">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.switch">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.switch">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.switch1">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.switch1">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="P:K7_B1.My.Resources.Resources.team_management">
-<summary>
+</member><member name="P:K7_B1.My.Resources.Resources.team_management">
+	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:K7_B1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>
