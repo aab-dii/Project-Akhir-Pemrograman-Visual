@@ -32,7 +32,22 @@ K7_B1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.Back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.Back1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.balik">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.bayar">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -122,6 +137,16 @@ K7_B1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.hexafix7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.hexafix8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.hexagon">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -162,6 +187,11 @@ K7_B1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:K7_B1.My.Resources.Resources.search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:K7_B1.My.Resources.Resources.shopping_bag">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -173,6 +203,11 @@ K7_B1
 </summary>
 </member>
 <member name="P:K7_B1.My.Resources.Resources.slip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:K7_B1.My.Resources.Resources.slip1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

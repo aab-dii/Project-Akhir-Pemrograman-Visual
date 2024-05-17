@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|d:\\coding\\visual basic\\jumat 17mei\\project-akhir-pemrograman-visual\\k7_b1\\k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\products.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\products.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|d:\\coding\\visual basic\\jumat 17mei\\project-akhir-pemrograman-visual\\k7_b1\\k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\cart.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|d:\\coding\\visual basic\\jumat 17mei\\project-akhir-pemrograman-visual\\k7_b1\\k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\manageproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -59,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\tambahproduk.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\products.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\products.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{0E53D192-BEB3-41D1-ABC5-E4A7BCC174B3}|K7_B1\\K7_B1.vbproj|solutionrelative:k7_b1\\laporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
@@ -104,11 +104,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Cart.vb",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Cart.vb",
               "RelativeDocumentMoniker": "K7_B1\\Cart.vb",
@@ -121,31 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "admin.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
-              "RelativeDocumentMoniker": "K7_B1\\admin.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:36:51.226Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "manageProduk.vb",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
-              "RelativeDocumentMoniker": "K7_B1\\manageProduk.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
-              "RelativeToolTip": "K7_B1\\manageProduk.vb",
-              "ViewState": "AQIAADMAAAAAAAAAAAAMwJMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-14T06:25:29.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "dashboard.vb",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb",
               "RelativeDocumentMoniker": "K7_B1\\dashboard.vb",
@@ -153,8 +129,7 @@
               "RelativeToolTip": "K7_B1\\dashboard.vb",
               "ViewState": "AQIAAEoAAAAAAAAAAIAwwFwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:07:47.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T06:07:47.136Z"
             },
             {
               "$type": "Document",
@@ -170,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "2RegisPage.vb [Design]",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\2RegisPage.vb",
               "RelativeDocumentMoniker": "K7_B1\\2RegisPage.vb",
@@ -181,19 +156,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Products.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb",
+              "RelativeDocumentMoniker": "K7_B1\\Products.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb [Design]",
+              "RelativeToolTip": "K7_B1\\Products.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T07:05:05.613Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "manageProduk.vb",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
+              "RelativeDocumentMoniker": "K7_B1\\manageProduk.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
+              "RelativeToolTip": "K7_B1\\manageProduk.vb",
+              "ViewState": "AQIAADMAAAAAAAAAAAAMwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-14T06:25:29.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "admin.vb [Design]",
+              "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
+              "RelativeDocumentMoniker": "K7_B1\\admin.vb",
+              "ToolTip": "D:\\Coding\\Visual Basic\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\Ini Paling FIxxxxxx\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T06:36:51.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "manageProduk.vb [Design]",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb",
               "RelativeDocumentMoniker": "K7_B1\\manageProduk.vb",
               "ToolTip": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\manageProduk.vb [Design]",
               "RelativeToolTip": "K7_B1\\manageProduk.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:41:42.908Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-16T06:41:42.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "admin.vb",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\admin.vb",
               "RelativeDocumentMoniker": "K7_B1\\admin.vb",
@@ -205,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "3LoginPage.vb [Design]",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\3LoginPage.vb",
               "RelativeDocumentMoniker": "K7_B1\\3LoginPage.vb",
@@ -216,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "1FirstPage.vb [Design]",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\1FirstPage.vb",
               "RelativeDocumentMoniker": "K7_B1\\1FirstPage.vb",
@@ -227,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ubahProduk.vb",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb",
               "RelativeDocumentMoniker": "K7_B1\\ubahProduk.vb",
@@ -239,19 +248,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "dashboard.vb [Design]",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb",
               "RelativeDocumentMoniker": "K7_B1\\dashboard.vb",
               "ToolTip": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\dashboard.vb [Design]",
               "RelativeToolTip": "K7_B1\\dashboard.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T06:07:19.958Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-16T06:07:19.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ubahProduk.vb [Design]",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\ubahProduk.vb",
               "RelativeDocumentMoniker": "K7_B1\\ubahProduk.vb",
@@ -262,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "tambahProduk.vb [Design]",
               "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb",
               "RelativeDocumentMoniker": "K7_B1\\tambahProduk.vb",
@@ -270,17 +278,6 @@
               "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\tambahProduk.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-14T09:11:34.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Products.vb [Design]",
-              "DocumentMoniker": "D:\\Coding\\Visual Basic\\jumat 17mei\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb",
-              "RelativeDocumentMoniker": "K7_B1\\Products.vb",
-              "ToolTip": "D:\\Coding\\Visual Basic\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\Pa 3\\Project-Akhir-Pemrograman-Visual\\K7_B1\\K7_B1\\Products.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-16T07:05:05.613Z"
             },
             {
               "$type": "Document",
