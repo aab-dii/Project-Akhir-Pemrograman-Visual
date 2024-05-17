@@ -1,7 +1,17 @@
-﻿Imports MySql.Data.MySqlClient
+﻿Imports System.Text.RegularExpressions
+Imports MySql.Data.MySqlClient
 
 Public Class Profile
     Dim iduser As Integer = LoginPage.idUser
+    Dim emailsaya As String
+
+    Private Function EmailBenar(email As String) As Boolean
+        ' Format email yang valid menggunakan ekspresi reguler
+        Dim pattern As String = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+        Dim regex As New Regex(pattern)
+        Return regex.IsMatch(email)
+    End Function
+
 
     Private Sub Profile_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         koneksi()
@@ -44,6 +54,7 @@ Public Class Profile
     End Sub
     Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
         Try
+
             koneksi()
             Dim query As String = "UPDATE tbuser SET username = @username, password = @password, email = @email, alamat = @alamat, notelp = @notelp WHERE id_user = @iduser"
             Dim cmd As New MySqlCommand(query, CONN)
@@ -53,10 +64,14 @@ Public Class Profile
             cmd.Parameters.AddWithValue("@email", txtEmail.Text)
             cmd.Parameters.AddWithValue("@alamat", txtAlamat.Text)
             cmd.Parameters.AddWithValue("@notelp", txtTelp.Text)
-
+            emailsaya = txtEmail.Text
             ' Check if any of the fields are empty
             If txtUsername.Text = "" Or txtPass.Text = "" Or txtEmail.Text = "" Or txtAlamat.Text = "" Or txtTelp.Text = "" Then
                 MsgBox("Data tidak boleh kosong")
+            End If
+
+            If Not EmailBenar(emailsaya) Then
+                MsgBox("Format email salah")
             Else
                 cmd.ExecuteNonQuery()
                 MessageBox.Show("Profile berhasil diubah.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information)
