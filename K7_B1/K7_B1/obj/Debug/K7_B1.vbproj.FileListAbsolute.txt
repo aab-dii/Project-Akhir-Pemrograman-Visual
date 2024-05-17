@@ -228,3 +228,28 @@ D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
 D:\Data\Documents\Kuliah\Praktikum\S4\PA\percobaan\New folder percobaan for git\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe.config
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.exe
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.pdb
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\K7_B1.xml
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\bin\Debug\mysql.data.dll
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.AssemblyReference.cache
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form1.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Form2.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.LoginPage.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.admin.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Cart.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.customer.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.dashboard.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Laporan.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.manageProduk.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Resources.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Products.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.tambahProduk.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.ubahProduk.resources
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.GenerateResource.cache
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.CoreCompileInputs.cache
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.vbproj.Up2Date
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb

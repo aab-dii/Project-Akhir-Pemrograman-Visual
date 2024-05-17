@@ -40,7 +40,7 @@ Partial Class Cart
         Me.Chekout.Name = "Chekout"
         Me.Chekout.Size = New System.Drawing.Size(99, 38)
         Me.Chekout.TabIndex = 1
-        Me.Chekout.Text = "Chekout ALL"
+        Me.Chekout.Text = "Chekout"
         Me.Chekout.UseVisualStyleBackColor = True
         '
         'Cart
