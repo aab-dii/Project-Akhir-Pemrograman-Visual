@@ -14,7 +14,7 @@ Public Class Products
             ' Buka koneksi jika belum terbuka
 
             ' Lakukan koneksi ke database dan eksekusi query untuk mengambil data produk
-            Dim query As String = "SELECT * FROM tbproduk"
+            Dim query As String = "SELECT * FROM tbproduk WHERE stok > 0"
             Dim cmd As New MySqlCommand(query, CONN)
             Dim reader As MySqlDataReader = cmd.ExecuteReader()
 
@@ -106,7 +106,7 @@ Public Class Products
     Private Sub txtCariProduk_TextChanged(sender As Object, e As EventArgs) Handles txtCariProduk.TextChanged
         Try
             Dim keyword As String = txtCariProduk.Text.Trim()
-            Dim query As String = "SELECT * FROM tbproduk WHERE nama LIKE @keyword"
+            Dim query As String = "SELECT * FROM tbproduk WHERE stok > 0 AND nama LIKE @keyword"
             Dim cmd As New MySqlCommand(query, CONN)
             cmd.Parameters.AddWithValue("@keyword", "%" & keyword & "%")
             Dim reader As MySqlDataReader = cmd.ExecuteReader()
@@ -194,11 +194,61 @@ Public Class Products
         End Try
     End Sub
 
+    Dim iduser As Integer
     Private Sub ProdukBeli_Click(sender As Object, e As EventArgs)
-        Throw New NotImplementedException
+        iduser = LoginPage.idUser
+        Dim btn As Button = CType(sender, Button)
+        Dim idProduk As Integer = Integer.Parse(btn.Tag.ToString())
+        Dim harga As Decimal = 0
+        Dim namaProduk As String = ""
+
+        Try
+            ' Buka koneksi jika belum terbuka
+            koneksi()
+
+            ' Lakukan query untuk mendapatkan harga produk yang dibeli
+            Dim getHargaQuery As String = "SELECT nama, harga FROM tbproduk WHERE idProduk = @idProduk"
+            Dim cmdGetHarga As New MySqlCommand(getHargaQuery, CONN)
+            cmdGetHarga.Parameters.AddWithValue("@idProduk", idProduk)
+            Dim reader As MySqlDataReader = cmdGetHarga.ExecuteReader()
+
+            If reader.Read() Then
+                namaProduk = reader("nama").ToString()
+                harga = Convert.ToDecimal(reader("harga"))
+            End If
+
+            reader.Close()
+
+            ' Kurangi jumlah produk di tbproduk
+            Dim updateQuery As String = "UPDATE tbproduk SET stok = stok - 1 WHERE idProduk = @idProduk"
+            Dim cmdUpdateStok As New MySqlCommand(updateQuery, CONN)
+            cmdUpdateStok.Parameters.AddWithValue("@idProduk", idProduk)
+            cmdUpdateStok.ExecuteNonQuery()
+
+            ' Tambahkan data pembelian ke tbriwayat
+            Dim insertQuery As String = "INSERT INTO tbriwayat (idUser, namaProduk, tanggal, jumlah, total) " &
+                                        "VALUES (@idUser, @namaProduk, @tanggal, 1, @totalHarga)"
+            Dim cmdInsert As New MySqlCommand(insertQuery, CONN)
+            cmdInsert.Parameters.AddWithValue("@idUser", iduser)
+            cmdInsert.Parameters.AddWithValue("@namaProduk", namaProduk)
+            cmdInsert.Parameters.AddWithValue("@tanggal", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"))
+            cmdInsert.Parameters.AddWithValue("@totalHarga", harga)
+            cmdInsert.ExecuteNonQuery()
+
+            MessageBox.Show("Produk berhasil dibeli!")
+
+        Catch ex As Exception
+            MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            ' Tutup koneksi setelah selesai
+            If CONN.State = ConnectionState.Open Then
+                CONN.Close()
+            End If
+        End Try
     End Sub
 
-    Dim iduser As Integer
+
+
     Private Sub produkKeranjang_Click(sender As Object, e As EventArgs)
         'Throw New NotImplementedException
         iduser = LoginPage.idUser
