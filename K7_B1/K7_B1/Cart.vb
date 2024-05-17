@@ -94,11 +94,6 @@ Public Class Cart
             reader.Close() ' Tutup DataReader setelah selesai membaca data
         Catch ex As Exception
             MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        Finally
-            ' Tutup koneksi setelah selesai
-            If CONN.State = ConnectionState.Open Then
-                CONN.Close()
-            End If
         End Try
     End Sub
 
@@ -106,10 +101,11 @@ Public Class Cart
     Private Sub Cart_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         koneksi()
         Tampil()
+        cekdata()
         AddHandler PrintDocument1.PrintPage, AddressOf Me.PrintDocumentStruk
     End Sub
 
-    Private Sub cekdata()
+    Private Function cekdata() As Boolean
         Dim query As String = "SELECT alamat, notelp FROM tbuser WHERE id_user = @iduser"
 
         Try
@@ -130,124 +126,133 @@ Public Class Cart
                 ' Check if the address or phone number is empty or zero
                 If String.IsNullOrEmpty(alamat) OrElse notelp = "0" Then
                     MsgBox("Mohon lengkapi data alamat dan nomor telepon Anda.")
+                    reader.Close()
+                    Return False
                 End If
             End If
-
             ' Close the reader
             reader.Close()
+            Return True
         Catch ex As Exception
             ' Handle exceptions
             MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return False
         End Try
-    End Sub
+    End Function
 
 
     ' Event handler untuk proses checkout
     Private Sub Chekout_Click(sender As Object, e As EventArgs) Handles Chekout.Click
-        cekdata()
+        koneksi()
+        If cekdata() Then
+            ' Lakukan proses checkout jika data lengkap
+            Dim selectedProducts As New List(Of Integer)()
+            Dim totalCheckout As Decimal = 0
+            Dim strukData As String = "Struk Pembelian" & vbCrLf & "===================" & vbCrLf
+            strukData &= String.Format("{0,-5} {1,-20} {2,-10} {3,10}", "No", "Nama Produk", "Jumlah", "Total") & vbCrLf
+            strukData &= "===================================================" & vbCrLf
 
-        Dim selectedProducts As New List(Of Integer)()
-        Dim totalCheckout As Decimal = 0
-        Dim strukData As String = "Struk Pembelian" & vbCrLf & "===================" & vbCrLf
-        strukData &= String.Format("{0,-5} {1,-20} {2,-10} {3,10}", "No", "Nama Produk", "Jumlah", "Total") & vbCrLf
-        strukData &= "===================================================" & vbCrLf
-
-        ' Loop through each panel in FlowLayoutPanel
-        For Each panel As Panel In PanelProduk.Controls
-            ' Search for CheckBox within the panel
-            For Each control As Control In panel.Controls
-                If TypeOf control Is CheckBox Then
-                    Dim checkBox As CheckBox = DirectCast(control, CheckBox)
-                    ' If CheckBox is checked, add product ID to the list
-                    If checkBox.Checked Then
-                        selectedProducts.Add(Convert.ToInt32(checkBox.Tag))
-                    End If
-                End If
-            Next
-        Next
-
-        ' Process selected products for checkout
-        If selectedProducts.Count > 0 Then
-            Try
-                koneksi() ' Open connection to the database
-                Dim itemNo As Integer = 1
-                For Each idProduk In selectedProducts
-                    ' Get product information and quantity from tbproduk and tbkeranjang tables
-                    Dim queryProduk As String = "SELECT p.nama, p.harga, p.stok, k.jumlah " &
-                                            "FROM tbproduk p " &
-                                            "INNER JOIN tbkeranjang k ON p.idProduk = k.idProduk " &
-                                            "WHERE k.idProduk = @idProduk AND k.idUser = @idUser"
-                    Dim cmdProduk As New MySqlCommand(queryProduk, CONN)
-                    cmdProduk.Parameters.AddWithValue("@idProduk", idProduk)
-                    cmdProduk.Parameters.AddWithValue("@idUser", iduser)
-                    Dim readerProduk As MySqlDataReader = cmdProduk.ExecuteReader()
-
-                    If readerProduk.Read() Then
-                        Dim namaProduk As String = readerProduk("nama").ToString()
-                        Dim harga As Decimal = Convert.ToDecimal(readerProduk("harga"))
-                        Dim stok As Integer = Convert.ToInt32(readerProduk("stok"))
-                        Dim jumlah As Integer = Convert.ToInt32(readerProduk("jumlah"))
-                        Dim total As Decimal = harga * jumlah
-                        totalCheckout += total
-
-                        ' Add product details to strukData
-                        strukData &= String.Format("{0,-5} {1,-20} {2,-10} {3,10:C2}", itemNo, namaProduk, jumlah, total) & vbCrLf
-                        itemNo += 1
-
-                        ' Close reader before performing other operations
-                        readerProduk.Close()
-
-                        ' Insert data into tbriwayat table
-                        Dim queryRiwayat As String = "INSERT INTO tbriwayat (idUser, namaProduk, tanggal, jumlah, total) VALUES (@idUser, @namaProduk, @tanggal, @jumlah, @total)"
-                        Dim cmdRiwayat As New MySqlCommand(queryRiwayat, CONN)
-                        cmdRiwayat.Parameters.AddWithValue("@idUser", iduser)
-                        cmdRiwayat.Parameters.AddWithValue("@namaProduk", namaProduk)
-                        cmdRiwayat.Parameters.AddWithValue("@tanggal", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"))
-                        cmdRiwayat.Parameters.AddWithValue("@jumlah", jumlah)
-                        cmdRiwayat.Parameters.AddWithValue("@total", total)
-                        cmdRiwayat.ExecuteNonQuery()
-
-                        ' Reduce stock in tbproduk table
-                        Dim queryUpdateStok As String = "UPDATE tbproduk SET stok = stok - @jumlah WHERE idProduk = @idProduk"
-                        Dim cmdUpdateStok As New MySqlCommand(queryUpdateStok, CONN)
-                        cmdUpdateStok.Parameters.AddWithValue("@jumlah", jumlah)
-                        cmdUpdateStok.Parameters.AddWithValue("@idProduk", idProduk)
-                        cmdUpdateStok.ExecuteNonQuery()
-
-                        ' Remove product from tbkeranjang after successful checkout
-                        Dim queryDeleteKeranjang As String = "DELETE FROM tbkeranjang WHERE idProduk = @idProduk AND idUser = @idUser"
-                        Dim cmdDeleteKeranjang As New MySqlCommand(queryDeleteKeranjang, CONN)
-                        cmdDeleteKeranjang.Parameters.AddWithValue("@idProduk", idProduk)
-                        cmdDeleteKeranjang.Parameters.AddWithValue("@idUser", iduser)
-                        cmdDeleteKeranjang.ExecuteNonQuery()
-                    Else
-                        readerProduk.Close()
+            ' Loop through each panel in FlowLayoutPanel
+            For Each panel As Panel In PanelProduk.Controls
+                ' Search for CheckBox within the panel
+                For Each control As Control In panel.Controls
+                    If TypeOf control Is CheckBox Then
+                        Dim checkBox As CheckBox = DirectCast(control, CheckBox)
+                        ' If CheckBox is checked, add product ID to the list
+                        If checkBox.Checked Then
+                            selectedProducts.Add(Convert.ToInt32(checkBox.Tag))
+                        End If
                     End If
                 Next
+            Next
 
-                strukData &= "===================================================" & vbCrLf
-                strukData &= String.Format("{0,-35} {1,10:C2}", "Total", totalCheckout)
+            ' Process selected products for checkout
+            If selectedProducts.Count > 0 Then
+                Try
+                    koneksi() ' Open connection to the database
+                    Dim itemNo As Integer = 1
+                    For Each idProduk In selectedProducts
+                        ' Get product information and quantity from tbproduk and tbkeranjang tables
+                        Dim queryProduk As String = "SELECT p.nama, p.harga, p.stok, k.jumlah " &
+                                                "FROM tbproduk p " &
+                                                "INNER JOIN tbkeranjang k ON p.idProduk = k.idProduk " &
+                                                "WHERE k.idProduk = @idProduk AND k.idUser = @idUser"
+                        Dim cmdProduk As New MySqlCommand(queryProduk, CONN)
+                        cmdProduk.Parameters.AddWithValue("@idProduk", idProduk)
+                        cmdProduk.Parameters.AddWithValue("@idUser", iduser)
+                        Dim readerProduk As MySqlDataReader = cmdProduk.ExecuteReader()
 
-                ' Store the formatted receipt data for printing
-                Me.strukDataToPrint = strukData
+                        If readerProduk.Read() Then
+                            Dim namaProduk As String = readerProduk("nama").ToString()
+                            Dim harga As Decimal = Convert.ToDecimal(readerProduk("harga"))
+                            Dim stok As Integer = Convert.ToInt32(readerProduk("stok"))
+                            Dim jumlah As Integer = Convert.ToInt32(readerProduk("jumlah"))
+                            Dim total As Decimal = harga * jumlah
+                            totalCheckout += total
 
-                ' Trigger the print
-                ShowPrintPreview()
-                'PrintDocument1.Print()
+                            ' Add product details to strukData
+                            strukData &= String.Format("{0,-5} {1,-20} {2,-10} {3,10:C2}", itemNo, namaProduk, jumlah, total) & vbCrLf
+                            itemNo += 1
 
-                MessageBox.Show("Produk yang dipilih berhasil di-checkout.", "Checkout", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            Catch ex As Exception
-                MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            Finally
-                ' Close connection after completion
-                If CONN.State = ConnectionState.Open Then
-                    CONN.Close()
-                End If
-            End Try
+                            ' Close reader before performing other operations
+                            readerProduk.Close()
+
+                            ' Insert data into tbriwayat table
+                            Dim queryRiwayat As String = "INSERT INTO tbriwayat (idUser, namaProduk, tanggal, jumlah, total) VALUES (@idUser, @namaProduk, @tanggal, @jumlah, @total)"
+                            Dim cmdRiwayat As New MySqlCommand(queryRiwayat, CONN)
+                            cmdRiwayat.Parameters.AddWithValue("@idUser", iduser)
+                            cmdRiwayat.Parameters.AddWithValue("@namaProduk", namaProduk)
+                            cmdRiwayat.Parameters.AddWithValue("@tanggal", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"))
+                            cmdRiwayat.Parameters.AddWithValue("@jumlah", jumlah)
+                            cmdRiwayat.Parameters.AddWithValue("@total", total)
+                            cmdRiwayat.ExecuteNonQuery()
+
+                            ' Reduce stock in tbproduk table
+                            Dim queryUpdateStok As String = "UPDATE tbproduk SET stok = stok - @jumlah WHERE idProduk = @idProduk"
+                            Dim cmdUpdateStok As New MySqlCommand(queryUpdateStok, CONN)
+                            cmdUpdateStok.Parameters.AddWithValue("@jumlah", jumlah)
+                            cmdUpdateStok.Parameters.AddWithValue("@idProduk", idProduk)
+                            cmdUpdateStok.ExecuteNonQuery()
+
+                            ' Remove product from tbkeranjang after successful checkout
+                            Dim queryDeleteKeranjang As String = "DELETE FROM tbkeranjang WHERE idProduk = @idProduk AND idUser = @idUser"
+                            Dim cmdDeleteKeranjang As New MySqlCommand(queryDeleteKeranjang, CONN)
+                            cmdDeleteKeranjang.Parameters.AddWithValue("@idProduk", idProduk)
+                            cmdDeleteKeranjang.Parameters.AddWithValue("@idUser", iduser)
+                            cmdDeleteKeranjang.ExecuteNonQuery()
+                        Else
+                            readerProduk.Close()
+                        End If
+                    Next
+
+                    strukData &= "===================================================" & vbCrLf
+                    strukData &= String.Format("{0,-35} {1,10:C2}", "Total", totalCheckout)
+
+                    ' Store the formatted receipt data for printing
+                    Me.strukDataToPrint = strukData
+
+                    ' Trigger the print
+                    'PrintDocument1.Print()
+
+                    MessageBox.Show("Produk yang dipilih berhasil di-checkout.", "Checkout", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    ShowPrintPreview()
+                Catch ex As Exception
+                    MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Finally
+                    ' Close connection after completion
+                    If CONN.State = ConnectionState.Open Then
+                        CONN.Close()
+                    End If
+                End Try
+            Else
+                MessageBox.Show("Silakan pilih produk yang ingin di-checkout.", "Checkout", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            End If
+            Tampil()
+            Products.Tampil()
         Else
-            MessageBox.Show("Silakan pilih produk yang ingin di-checkout.", "Checkout", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            ' Jika data tidak lengkap
+            MessageBox.Show("Mohon lengkapi data alamat dan nomor telepon Anda.", "Data Belum Lengkap", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End If
-        Tampil()
     End Sub
 
     ' Class-level variable to hold the receipt data for printing

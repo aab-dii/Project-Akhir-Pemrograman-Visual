@@ -45,6 +45,8 @@ Public Class Form2
         username = txtUsername.Text
         email = txtEmail.Text
         password = txtpass.Text
+        koneksi()
+
         If txtEmail.Text = "" OrElse txtpass.Text = "" OrElse txtUsername.Text = "" Then
             MsgBox("Data Belum Lengkap")
         ElseIf EmailAda(email) Then
@@ -86,6 +88,6 @@ Public Class Form2
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        koneksi()
     End Sub
 End Class

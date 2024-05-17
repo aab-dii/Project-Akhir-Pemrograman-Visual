@@ -127,6 +127,7 @@ Partial Class ubahProduk
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox1.Location = New System.Drawing.Point(452, 70)
         Me.PictureBox1.Name = "PictureBox1"

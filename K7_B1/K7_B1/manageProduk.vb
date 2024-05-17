@@ -164,6 +164,11 @@ Public Class manageProduk
 
             MessageBox.Show("Data berhasil dihapus")
             LoadProdukToFlowLayoutPanel() ' Refresh panel produk setelah penghapusan
+            dashboard.TampilkanTotalProduk()
+            dashboard.TampilkanTotalUser()
+            dashboard.TampilkanTotalTerjual()
+            dashboard.TampilkanTotalHargaPenjualan()
+            Me.LoadProdukToFlowLayoutPanel()
         Catch ex As Exception
             MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally

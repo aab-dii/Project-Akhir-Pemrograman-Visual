@@ -144,8 +144,12 @@ Public Class ubahProduk
     End Sub
 
     Private Sub btnSimpan_Click_1(sender As Object, e As EventArgs) Handles btnSimpan.Click
-        If txtNama.Text = "" Or txtHarga.Text = "" Then
-            MsgBox("Data belum lengkap!")
+        If txtNama.Text = "" OrElse txtHarga.Text = "" OrElse txtMerek.Text = "" OrElse cbKualitas.Text = "" OrElse txtMadeIn.Text = "" OrElse txtStok.Text = "" Then
+            MsgBox("Data belum lengkap", MessageBoxIcon.Warning)
+        ElseIf Not (sepatu.Checked Or baju.Checked) Then
+            MsgBox("Pilih jenis produk", MessageBoxIcon.Warning)
+        ElseIf String.IsNullOrEmpty(gambarPath) Then
+            MsgBox("Pilih gambar produk", MessageBoxIcon.Warning)
         Else
             Try
                 koneksi()
@@ -202,5 +206,9 @@ Public Class ubahProduk
 
     Private Sub txtStok_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtStok.KeyPress
         HanyaAngka(e)
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
     End Sub
 End Class

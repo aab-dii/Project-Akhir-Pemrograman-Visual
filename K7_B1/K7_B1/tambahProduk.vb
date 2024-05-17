@@ -63,16 +63,21 @@ Public Class tambahProduk
 
     Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
         koneksi()
-        ' Lakukan pengecekan jika nama produk dan harga produk telah diisi
+        ' Lakukan pengecekan jika semua data telah diisi
         If txtNama.Text = "" OrElse txtHarga.Text = "" OrElse txtMerek.Text = "" OrElse cbKualitas.Text = "" OrElse txtMadeIn.Text = "" OrElse txtStok.Text = "" Then
-            MsgBox("Data belum lengkap")
+            MsgBox("Data belum lengkap", MessageBoxIcon.Warning)
         ElseIf Not (sepatu.Checked Or baju.Checked) Then
-            MsgBox("Data Belum Lengkap")
-        ElseIf gambarPath <> "" Then
-            ' Salin gambar ke folder lokal proyek
-            CopyImageToFolder(gambarPath, "GambarProduk")
+            MsgBox("Pilih jenis produk", MessageBoxIcon.Warning)
+        ElseIf String.IsNullOrEmpty(gambarPath) Then
+            MsgBox("Pilih gambar produk", MessageBoxIcon.Warning)
+        Else
+            ' Salin gambar ke folder lokal proyek jika path gambar tidak kosong
+            If Not String.IsNullOrEmpty(gambarPath) AndAlso Not gambarPath.StartsWith(Application.StartupPath) Then
+                CopyImageToFolder(gambarPath, "GambarProduk")
+            End If
 
-            ' Simpan data produk ke database
+            ' Tentukan jenis produk berdasarkan checkbox yang dipilih
+            Dim jenisProduk As String
             If sepatu.Checked Then
                 jenisProduk = sepatu.Text
             Else
@@ -82,32 +87,46 @@ Public Class tambahProduk
             ' Dapatkan path relatif gambar
             Dim gambarPathRelatif As String = Path.Combine("GambarProduk", Path.GetFileName(gambarPath))
 
-            ' Lakukan penyimpanan produk ke database
-            CMD = New MySqlCommand("INSERT INTO tbproduk (nama, jenis, harga, merek, madeIn, kualitas, stok, gambar) VALUES (@nama, @jenis, @harga, @merek, @madeIn, @kualitas, @stok, @gambar)", CONN)
-            CMD.Parameters.AddWithValue("@nama", txtNama.Text)
-            CMD.Parameters.AddWithValue("@jenis", jenisProduk)
-            CMD.Parameters.AddWithValue("@harga", txtHarga.Text)
-            CMD.Parameters.AddWithValue("@merek", txtMerek.Text)
-            CMD.Parameters.AddWithValue("@madeIn", txtMadeIn.Text)
-            CMD.Parameters.AddWithValue("@kualitas", cbKualitas.Text)
-            CMD.Parameters.AddWithValue("@stok", txtStok.Text)
-            CMD.Parameters.AddWithValue("@gambar", gambarPathRelatif)
-            CMD.ExecuteNonQuery()
+            Try
+                ' Simpan data produk ke database
+                CMD = New MySqlCommand("INSERT INTO tbproduk (nama, jenis, harga, merek, madeIn, kualitas, stok, gambar) VALUES (@nama, @jenis, @harga, @merek, @madeIn, @kualitas, @stok, @gambar)", CONN)
+                CMD.Parameters.AddWithValue("@nama", txtNama.Text)
+                CMD.Parameters.AddWithValue("@jenis", jenisProduk)
+                CMD.Parameters.AddWithValue("@harga", txtHarga.Text)
+                CMD.Parameters.AddWithValue("@merek", txtMerek.Text)
+                CMD.Parameters.AddWithValue("@madeIn", txtMadeIn.Text)
+                CMD.Parameters.AddWithValue("@kualitas", cbKualitas.Text)
+                CMD.Parameters.AddWithValue("@stok", txtStok.Text)
+                CMD.Parameters.AddWithValue("@gambar", gambarPathRelatif)
+                CMD.ExecuteNonQuery()
 
-            MsgBox("Simpan Data Berhasil!")
-            manageProduk.LoadProdukToFlowLayoutPanel()
-            admin.childform(manageProduk)
+                MsgBox("Simpan Data Berhasil!", MessageBoxIcon.Information)
 
-            ' Kosongkan textbox setelah penyimpanan
-            txtNama.Clear()
-            txtHarga.Clear()
-            txtMerek.Clear()
-            txtMadeIn.Clear()
-            txtStok.Clear()
-            cbKualitas.SelectedIndex = -1
-            gambarPath = ""
+                ' Refresh tampilan dashboard dan form produk
+                dashboard.TampilkanTotalProduk()
+                dashboard.TampilkanTotalUser()
+                dashboard.TampilkanTotalTerjual()
+                dashboard.TampilkanTotalHargaPenjualan()
+                manageProduk.LoadProdukToFlowLayoutPanel()
+                admin.childform(manageProduk)
+
+                ' Kosongkan textbox setelah penyimpanan
+                txtNama.Clear()
+                txtHarga.Clear()
+                txtMerek.Clear()
+                txtMadeIn.Clear()
+                txtStok.Clear()
+                cbKualitas.SelectedIndex = -1
+                gambarPath = ""
+            Catch ex As Exception
+                MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Finally
+                CONN.Close()
+            End Try
         End If
     End Sub
+
+
 
     Private Sub tambahProduk_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         koneksi()
@@ -131,4 +150,5 @@ Public Class tambahProduk
     Private Sub txtStok_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtStok.KeyPress
         HanyaAngka(e)
     End Sub
+
 End Class

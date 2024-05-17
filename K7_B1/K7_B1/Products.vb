@@ -104,6 +104,8 @@ Public Class Products
     End Sub
 
     Private Sub txtCariProduk_TextChanged(sender As Object, e As EventArgs) Handles txtCariProduk.TextChanged
+        koneksi()
+
         Try
             Dim keyword As String = txtCariProduk.Text.Trim()
             Dim query As String = "SELECT * FROM tbproduk WHERE stok > 0 AND nama LIKE @keyword"
@@ -236,7 +238,7 @@ Public Class Products
             cmdInsert.ExecuteNonQuery()
 
             MessageBox.Show("Produk berhasil dibeli!")
-
+            Tampil()
         Catch ex As Exception
             MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
