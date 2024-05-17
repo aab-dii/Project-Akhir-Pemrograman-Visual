@@ -109,10 +109,43 @@ Public Class Cart
         AddHandler PrintDocument1.PrintPage, AddressOf Me.PrintDocumentStruk
     End Sub
 
+    Private Sub cekdata()
+        Dim query As String = "SELECT alamat, notelp FROM tbuser WHERE id_user = @iduser"
+
+        Try
+            ' Create a MySqlCommand object with the SQL query and connection
+            Dim cmd As New MySqlCommand(query, CONN)
+            ' Add parameter to prevent SQL injection
+            cmd.Parameters.AddWithValue("@iduser", iduser)
+
+            ' Execute the SQL command and get the MySqlDataReader
+            Dim reader As MySqlDataReader = cmd.ExecuteReader()
+
+            ' Check if there are rows returned
+            If reader.Read() Then
+                ' Read the values from the reader and assign them to variables
+                Dim alamat As String = reader("alamat").ToString()
+                Dim notelp As String = reader("notelp").ToString()
+
+                ' Check if the address or phone number is empty or zero
+                If String.IsNullOrEmpty(alamat) OrElse notelp = "0" Then
+                    MsgBox("Mohon lengkapi data alamat dan nomor telepon Anda.")
+                End If
+            End If
+
+            ' Close the reader
+            reader.Close()
+        Catch ex As Exception
+            ' Handle exceptions
+            MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
 
 
     ' Event handler untuk proses checkout
     Private Sub Chekout_Click(sender As Object, e As EventArgs) Handles Chekout.Click
+        cekdata()
+
         Dim selectedProducts As New List(Of Integer)()
         Dim totalCheckout As Decimal = 0
         Dim strukData As String = "Struk Pembelian" & vbCrLf & "===================" & vbCrLf

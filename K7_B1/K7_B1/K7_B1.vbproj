@@ -165,6 +165,12 @@
     <Compile Include="Products.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="profile.Designer.vb">
+      <DependentUpon>profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Riwayatuser.Designer.vb">
       <DependentUpon>Riwayatuser.vb</DependentUpon>
     </Compile>
@@ -221,6 +227,9 @@
     <EmbeddedResource Include="Products.resx">
       <DependentUpon>Products.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Riwayatuser.resx">
       <DependentUpon>Riwayatuser.vb</DependentUpon>
     </EmbeddedResource>
@@ -262,6 +271,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
     <None Include="Resources\balik.png" />
     <None Include="Resources\plus.png" />
     <None Include="Resources\hexagon.png" />

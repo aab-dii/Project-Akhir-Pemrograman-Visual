@@ -76,5 +76,12 @@ Public Class Form2
         Me.Hide()
     End Sub
 
+    Sub kosong()
+        txtEmail.Clear()
 
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+
+    End Sub
 End Class

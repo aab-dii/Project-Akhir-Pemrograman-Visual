@@ -180,7 +180,7 @@ Public Class manageProduk
 
         ' Buka form ubah produk dan isi data produk
         Dim formUbah As New ubahProduk(idProduk)
-        admin.lblHeaderMenu.Text = "Ubah Produk"
+        admin.lblHeaderMenu.Text = "Change Product"
         admin.childform(formUbah)
 
         ' Refresh data setelah melakukan pengubahan
@@ -193,7 +193,7 @@ Public Class manageProduk
     End Sub
 
     Private Sub btnTambah_Click_1(sender As Object, e As EventArgs) Handles btnTambah.Click
-        admin.lblHeaderMenu.Text = "Tambah Produk"
+        admin.lblHeaderMenu.Text = "Add Product"
         admin.childform(tambahProduk)
     End Sub
 

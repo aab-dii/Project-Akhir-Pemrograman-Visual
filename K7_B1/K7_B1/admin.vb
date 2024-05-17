@@ -75,10 +75,12 @@
     End Sub
 
     Private Sub btnManageOrders_Click_1(sender As Object, e As EventArgs) Handles btnManageOrders.Click
+        lblHeaderMenu.Text = "Manage Products"
         childform(manageProduk)
     End Sub
 
     Private Sub btnInvoice_Click_1(sender As Object, e As EventArgs) Handles btnInvoice.Click
+        lblHeaderMenu.Text = "Invoice"
         childform(Laporan)
     End Sub
 
@@ -88,11 +90,6 @@
         lblHeaderMenu.Text = "Dashboard"
         childform(dashboard)
     End Sub
-
-    Private Sub btnManageProducts_Click_1(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub btnLogout_Click_1(sender As Object, e As EventArgs) Handles btnLogout.Click
         Me.Hide()
         Form1.Show()

@@ -300,7 +300,6 @@ Public Class Products
             End If
 
             If count > 0 Then
-                MessageBox.Show("sql 2")
                 ' Produk sudah ada di keranjang, tambahkan jumlahnya
                 Dim updateQuery As String = "UPDATE tbkeranjang SET jumlah = jumlah + @jumlah WHERE idUser = @idUser AND idProduk = @idProduk"
                 Dim updateCmd As New MySqlCommand(updateQuery, CONN)
@@ -311,7 +310,6 @@ Public Class Products
                 MessageBox.Show("Jumlah produk berhasil diperbarui di keranjang")
             Else
                 ' Produk belum ada di keranjang, tambahkan ke keranjang
-                MessageBox.Show("sql 3")
                 Dim insertQuery As String = "INSERT INTO tbkeranjang(idProduk, idUser, jumlah) VALUES (@idProduk, @idUser, @jumlah)"
                 Dim insertCmd As New MySqlCommand(insertQuery, CONN)
                 insertCmd.Parameters.AddWithValue("@idUser", iduser) ' Ganti dengan ID user yang sesuai
