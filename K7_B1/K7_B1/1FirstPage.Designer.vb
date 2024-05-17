@@ -78,7 +78,7 @@ Partial Class Form1
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(86, 315)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(448, 52)
+        Me.Label1.Size = New System.Drawing.Size(449, 52)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "STREETWEAR STORE"
         '
@@ -98,8 +98,14 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(593, 543)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Panel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form1"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

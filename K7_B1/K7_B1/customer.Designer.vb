@@ -155,7 +155,7 @@ Partial Class customer
         Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
         Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 26)
         Me.lblHeaderMenu.Name = "lblHeaderMenu"
-        Me.lblHeaderMenu.Size = New System.Drawing.Size(218, 28)
+        Me.lblHeaderMenu.Size = New System.Drawing.Size(226, 29)
         Me.lblHeaderMenu.TabIndex = 8
         Me.lblHeaderMenu.Text = "Dashboard Admin"
         Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -172,10 +172,11 @@ Partial Class customer
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1340, 742)
-        Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel3)
+        Me.Controls.Add(Me.Panel4)
         Me.Name = "customer"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "customer"
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
