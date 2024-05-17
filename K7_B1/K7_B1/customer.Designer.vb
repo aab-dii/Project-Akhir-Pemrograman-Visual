@@ -23,15 +23,16 @@ Partial Class customer
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.btnLogout = New System.Windows.Forms.Button()
-        Me.btnCart = New System.Windows.Forms.Button()
-        Me.btnProducts = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.lbnamacustomer = New System.Windows.Forms.Label()
         Me.lblCustomer = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.lblHeaderMenu = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.btnLogout = New System.Windows.Forms.Button()
+        Me.btnHistory = New System.Windows.Forms.Button()
+        Me.btnCart = New System.Windows.Forms.Button()
+        Me.btnProducts = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -41,6 +42,7 @@ Partial Class customer
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(78, Byte), Integer))
         Me.Panel1.Controls.Add(Me.btnLogout)
+        Me.Panel1.Controls.Add(Me.btnHistory)
         Me.Panel1.Controls.Add(Me.btnCart)
         Me.Panel1.Controls.Add(Me.btnProducts)
         Me.Panel1.Controls.Add(Me.Panel2)
@@ -48,63 +50,6 @@ Partial Class customer
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(314, 741)
         Me.Panel1.TabIndex = 7
-        '
-        'btnLogout
-        '
-        Me.btnLogout.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnLogout.FlatAppearance.BorderSize = 0
-        Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLogout.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogout.ForeColor = System.Drawing.Color.White
-        Me.btnLogout.Image = Global.K7_B1.My.Resources.Resources.switch1
-        Me.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLogout.Location = New System.Drawing.Point(0, 274)
-        Me.btnLogout.Name = "btnLogout"
-        Me.btnLogout.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnLogout.Size = New System.Drawing.Size(314, 87)
-        Me.btnLogout.TabIndex = 4
-        Me.btnLogout.Text = "    Logout"
-        Me.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnLogout.UseVisualStyleBackColor = True
-        '
-        'btnCart
-        '
-        Me.btnCart.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnCart.FlatAppearance.BorderSize = 0
-        Me.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCart.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCart.ForeColor = System.Drawing.Color.White
-        Me.btnCart.Image = Global.K7_B1.My.Resources.Resources.shopping_cart__2_
-        Me.btnCart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCart.Location = New System.Drawing.Point(0, 187)
-        Me.btnCart.Name = "btnCart"
-        Me.btnCart.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnCart.Size = New System.Drawing.Size(314, 87)
-        Me.btnCart.TabIndex = 2
-        Me.btnCart.Text = "    Cart"
-        Me.btnCart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnCart.UseVisualStyleBackColor = True
-        '
-        'btnProducts
-        '
-        Me.btnProducts.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnProducts.FlatAppearance.BorderSize = 0
-        Me.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnProducts.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnProducts.ForeColor = System.Drawing.Color.White
-        Me.btnProducts.Image = Global.K7_B1.My.Resources.Resources.buy
-        Me.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProducts.Location = New System.Drawing.Point(0, 100)
-        Me.btnProducts.Name = "btnProducts"
-        Me.btnProducts.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnProducts.Size = New System.Drawing.Size(314, 87)
-        Me.btnProducts.TabIndex = 1
-        Me.btnProducts.Text = "    Products"
-        Me.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnProducts.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -155,7 +100,7 @@ Partial Class customer
         Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
         Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 26)
         Me.lblHeaderMenu.Name = "lblHeaderMenu"
-        Me.lblHeaderMenu.Size = New System.Drawing.Size(226, 29)
+        Me.lblHeaderMenu.Size = New System.Drawing.Size(218, 28)
         Me.lblHeaderMenu.TabIndex = 8
         Me.lblHeaderMenu.Text = "Dashboard Admin"
         Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -166,6 +111,82 @@ Partial Class customer
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1028, 641)
         Me.Panel4.TabIndex = 9
+        '
+        'btnLogout
+        '
+        Me.btnLogout.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnLogout.FlatAppearance.BorderSize = 0
+        Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLogout.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogout.ForeColor = System.Drawing.Color.White
+        Me.btnLogout.Image = Global.K7_B1.My.Resources.Resources.switch1
+        Me.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnLogout.Location = New System.Drawing.Point(0, 361)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnLogout.Size = New System.Drawing.Size(314, 87)
+        Me.btnLogout.TabIndex = 5
+        Me.btnLogout.Text = "    Logout"
+        Me.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnLogout.UseVisualStyleBackColor = True
+        '
+        'btnHistory
+        '
+        Me.btnHistory.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnHistory.FlatAppearance.BorderSize = 0
+        Me.btnHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnHistory.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHistory.ForeColor = System.Drawing.Color.White
+        Me.btnHistory.Image = Global.K7_B1.My.Resources.Resources.slip1
+        Me.btnHistory.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnHistory.Location = New System.Drawing.Point(0, 274)
+        Me.btnHistory.Name = "btnHistory"
+        Me.btnHistory.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnHistory.Size = New System.Drawing.Size(314, 87)
+        Me.btnHistory.TabIndex = 4
+        Me.btnHistory.Text = "Invoice"
+        Me.btnHistory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnHistory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnHistory.UseVisualStyleBackColor = True
+        '
+        'btnCart
+        '
+        Me.btnCart.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnCart.FlatAppearance.BorderSize = 0
+        Me.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCart.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCart.ForeColor = System.Drawing.Color.White
+        Me.btnCart.Image = Global.K7_B1.My.Resources.Resources.shopping_cart__2_
+        Me.btnCart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCart.Location = New System.Drawing.Point(0, 187)
+        Me.btnCart.Name = "btnCart"
+        Me.btnCart.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnCart.Size = New System.Drawing.Size(314, 87)
+        Me.btnCart.TabIndex = 2
+        Me.btnCart.Text = "    Cart"
+        Me.btnCart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnCart.UseVisualStyleBackColor = True
+        '
+        'btnProducts
+        '
+        Me.btnProducts.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnProducts.FlatAppearance.BorderSize = 0
+        Me.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnProducts.Font = New System.Drawing.Font("Visby Round CF Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnProducts.ForeColor = System.Drawing.Color.White
+        Me.btnProducts.Image = Global.K7_B1.My.Resources.Resources.buy
+        Me.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnProducts.Location = New System.Drawing.Point(0, 100)
+        Me.btnProducts.Name = "btnProducts"
+        Me.btnProducts.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.btnProducts.Size = New System.Drawing.Size(314, 87)
+        Me.btnProducts.TabIndex = 1
+        Me.btnProducts.Text = "    Products"
+        Me.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnProducts.UseVisualStyleBackColor = True
         '
         'customer
         '
@@ -188,7 +209,7 @@ Partial Class customer
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents btnLogout As Button
+    Friend WithEvents btnHistory As Button
     Friend WithEvents btnCart As Button
     Friend WithEvents btnProducts As Button
     Friend WithEvents Panel2 As Panel
@@ -197,4 +218,5 @@ Partial Class customer
     Friend WithEvents lblHeaderMenu As Label
     Friend WithEvents lbnamacustomer As System.Windows.Forms.Label
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
+    Friend WithEvents btnLogout As Button
 End Class

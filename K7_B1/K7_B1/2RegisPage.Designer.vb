@@ -23,6 +23,7 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtpass = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -31,7 +32,6 @@ Partial Class Form2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.txtEmail = New System.Windows.Forms.TextBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -55,6 +55,16 @@ Partial Class Form2
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(612, 568)
         Me.Panel2.TabIndex = 10
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.Back
+        Me.PictureBox2.Location = New System.Drawing.Point(15, 25)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
         '
         'Label4
         '
@@ -133,16 +143,6 @@ Partial Class Form2
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(325, 22)
         Me.txtEmail.TabIndex = 5
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.balik
-        Me.PictureBox2.Location = New System.Drawing.Point(15, 25)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(64, 64)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '

@@ -264,6 +264,13 @@
     <None Include="Resources\hexafix4.png" />
     <None Include="Resources\hexafix5.png" />
     <None Include="Resources\hexafix6.png" />
+    <None Include="Resources\Back.png" />
+    <None Include="Resources\Back1.png" />
+    <None Include="Resources\bayar.png" />
+    <None Include="Resources\hexafix7.png" />
+    <None Include="Resources\slip1.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\hexafix8.png" />
     <Content Include="Resources\status.png" />
     <Content Include="Resources\team-management.png" />
     <None Include="Resources\shopping-cart %282%29.png" />

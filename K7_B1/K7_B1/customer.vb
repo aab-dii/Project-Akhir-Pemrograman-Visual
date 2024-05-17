@@ -13,7 +13,7 @@
         lbnamacustomer.Text = namacustomer
     End Sub
 
-    Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
+    Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
         ' Kode untuk event klik tombol Logout
         Form1.Show()
         Me.Hide()

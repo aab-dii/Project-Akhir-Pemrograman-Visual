@@ -155,10 +155,11 @@ Partial Class LoginPage
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.balik
+        Me.PictureBox2.Image = Global.K7_B1.My.Resources.Resources.Back1
         Me.PictureBox2.Location = New System.Drawing.Point(16, 26)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(101, 80)
+        Me.PictureBox2.Size = New System.Drawing.Size(47, 44)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox2.TabIndex = 18
         Me.PictureBox2.TabStop = False
         '
