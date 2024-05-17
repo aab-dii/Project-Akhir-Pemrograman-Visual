@@ -253,3 +253,4 @@ D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\
 D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.exe
 D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.xml
 D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.pdb
+D:\Coding\Visual Basic\jumat 17mei\Project-Akhir-Pemrograman-Visual\K7_B1\K7_B1\obj\Debug\K7_B1.Riwayatuser.resources

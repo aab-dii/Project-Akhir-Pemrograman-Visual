@@ -176,7 +176,7 @@ Partial Class customer
         Me.lblHeaderMenu.ForeColor = System.Drawing.Color.White
         Me.lblHeaderMenu.Location = New System.Drawing.Point(390, 26)
         Me.lblHeaderMenu.Name = "lblHeaderMenu"
-        Me.lblHeaderMenu.Size = New System.Drawing.Size(226, 29)
+        Me.lblHeaderMenu.Size = New System.Drawing.Size(218, 28)
         Me.lblHeaderMenu.TabIndex = 8
         Me.lblHeaderMenu.Text = "Dashboard Admin"
         Me.lblHeaderMenu.TextAlign = System.Drawing.ContentAlignment.TopCenter

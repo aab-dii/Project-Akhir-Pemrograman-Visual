@@ -22,12 +22,18 @@ Partial Class Laporan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Laporan))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.btnCetakLaporan = New System.Windows.Forms.Button()
+        Me.PrintDocument2 = New System.Drawing.Printing.PrintDocument()
+        Me.PrintPreviewDialog1 = New System.Windows.Forms.PrintPreviewDialog()
+        Me.PictureBoxLogo = New System.Windows.Forms.PictureBox()
         Me.ID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.produk = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.jumlah = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tanggal = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -46,33 +52,58 @@ Partial Class Laporan
         Me.DataGridView1.Size = New System.Drawing.Size(804, 317)
         Me.DataGridView1.TabIndex = 1
         '
+        'btnCetakLaporan
+        '
+        Me.btnCetakLaporan.Location = New System.Drawing.Point(457, 427)
+        Me.btnCetakLaporan.Name = "btnCetakLaporan"
+        Me.btnCetakLaporan.Size = New System.Drawing.Size(105, 47)
+        Me.btnCetakLaporan.TabIndex = 2
+        Me.btnCetakLaporan.Text = "Cetak"
+        Me.btnCetakLaporan.UseVisualStyleBackColor = True
+        '
+        'PrintPreviewDialog1
+        '
+        Me.PrintPreviewDialog1.AutoScrollMargin = New System.Drawing.Size(0, 0)
+        Me.PrintPreviewDialog1.AutoScrollMinSize = New System.Drawing.Size(0, 0)
+        Me.PrintPreviewDialog1.ClientSize = New System.Drawing.Size(400, 300)
+        Me.PrintPreviewDialog1.Enabled = True
+        Me.PrintPreviewDialog1.Icon = CType(resources.GetObject("PrintPreviewDialog1.Icon"), System.Drawing.Icon)
+        Me.PrintPreviewDialog1.Name = "PrintPreviewDialog1"
+        Me.PrintPreviewDialog1.Visible = False
+        '
+        'PictureBoxLogo
+        '
+        Me.PictureBoxLogo.Location = New System.Drawing.Point(44, 42)
+        Me.PictureBoxLogo.Name = "PictureBoxLogo"
+        Me.PictureBoxLogo.Size = New System.Drawing.Size(8, 8)
+        Me.PictureBoxLogo.TabIndex = 3
+        Me.PictureBoxLogo.TabStop = False
+        '
         'ID
         '
         Me.ID.HeaderText = "ID"
-        Me.ID.MinimumWidth = 6
         Me.ID.Name = "ID"
-        Me.ID.Width = 125
+        Me.ID.Width = 75
         '
         'produk
         '
         Me.produk.HeaderText = "Nama Produk"
-        Me.produk.MinimumWidth = 6
+        Me.produk.MinimumWidth = 15
         Me.produk.Name = "produk"
-        Me.produk.Width = 125
+        Me.produk.Width = 210
         '
         'jumlah
         '
         Me.jumlah.HeaderText = "Jumlah"
         Me.jumlah.MinimumWidth = 6
         Me.jumlah.Name = "jumlah"
-        Me.jumlah.Width = 125
         '
         'tanggal
         '
         Me.tanggal.HeaderText = "Tannggal"
-        Me.tanggal.MinimumWidth = 6
+        Me.tanggal.MinimumWidth = 15
         Me.tanggal.Name = "tanggal"
-        Me.tanggal.Width = 125
+        Me.tanggal.Width = 200
         '
         'Laporan
         '
@@ -81,15 +112,22 @@ Partial Class Laporan
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(78, Byte), Integer))
         Me.BackgroundImage = Global.K7_B1.My.Resources.Resources.hexafix3
         Me.ClientSize = New System.Drawing.Size(1027, 514)
+        Me.Controls.Add(Me.PictureBoxLogo)
+        Me.Controls.Add(Me.btnCetakLaporan)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "Laporan"
         Me.Text = "Laporan"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents btnCetakLaporan As Button
+    Friend WithEvents PrintDocument2 As Printing.PrintDocument
+    Friend WithEvents PrintPreviewDialog1 As PrintPreviewDialog
+    Friend WithEvents PictureBoxLogo As PictureBox
     Friend WithEvents ID As DataGridViewTextBoxColumn
     Friend WithEvents produk As DataGridViewTextBoxColumn
     Friend WithEvents jumlah As DataGridViewTextBoxColumn

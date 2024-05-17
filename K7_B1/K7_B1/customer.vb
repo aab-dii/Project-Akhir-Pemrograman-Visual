@@ -28,4 +28,10 @@
         Form1.Show()
         Me.Hide()
     End Sub
+
+    Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
+        lblHeaderMenu.Text = "History Order"
+        childform(Riwayatuser)
+
+    End Sub
 End Class
